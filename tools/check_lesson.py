@@ -39,6 +39,9 @@ def check(meta):
     for i, x in enumerate(L.get('practice', {}).get('items', [])):
         if not os.path.exists(os.path.join(ROOT, x.get('img', ''))):
             errs.append(f"看图练习 {i + 1} 的图片不存在：{x.get('img')}")
+    lost = [t for t, p in L.get('audio', {}).items() if not os.path.exists(os.path.join(ROOT, p))]
+    if lost:
+        errs.append(f'{len(lost)} 条录音文件不存在，例如：{lost[0]}（重跑 tools/make_audio.py）')
     if not L.get('cards'):
         errs.append('没有任何词卡')
     return errs, len(L.get('cards', []))

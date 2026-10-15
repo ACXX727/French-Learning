@@ -48,17 +48,29 @@ description: 把 materials/<课号>/ 里的新法语课程材料（PDF、Word、
 
 图片统一转成 WebP（宽不超过 1000px，quality 约 80），放在 `lessons/<课号>/`。练习照片同样处理。
 
-## 3. 登记并校验
+## 3. 生成录音
+
+用 Piper 离线生成单词、例句和看图练习参考句的 MP3，写进 JSON 的 `audio` 字段：
+
+```
+python tools/make_audio.py L7 <fr_FR-siwis-medium.onnx 路径>
+```
+
+- 需要一个装了 `piper-tts`、`lameenc` 的 Python 环境，以及从 `huggingface.co/rhasspy/piper-voices` 下载的 `fr/fr_FR/siwis/medium` 模型（.onnx 和 .onnx.json）。之前装在 `%LOCALAPPDATA%\piper-tmp`（venv + `model/`），先看那里还在不在。
+- 不在的话，告诉用户要下载的内容（PyPI 包约 20MB，模型约 63MB）并征得同意。Windows 路径过长会导致 pip 失败，venv 要建在短路径下。
+- 改了词条或例句后重跑即可：已有录音会复用，不再用到的会自动删除。
+
+## 4. 登记并校验
 
 - 在 `lessons/index.json` 的 `lessons` 末尾加 `{ "id": "L7", "title": "...", "file": "lessons/L7.json" }`，并把 `default` 改成新课。
 - 运行 `python tools/check_lesson.py L7`，直到全部通过。
 
-## 4. 本地预览
+## 5. 本地预览
 
 - 用 `.claude/launch.json` 里的本地服务器打开 `/#L7`。分别在桌面和手机尺寸下检查：词卡、词库、看图表达、用法与说明，以及控制台有没有报错。
 - 把新增卡片数量、改正过的原文错误、缺图的卡告诉用户，**等用户确认后**再提交。
 
-## 5. 提交推送
+## 6. 提交推送
 
 - `git add lessons tools .claude` 等相关文件（`materials/` 已被 .gitignore 排除，不要强行添加）。
 - 提交信息写明「新增 L7：xx 张卡」。用户同意后 `git push`。GitHub Pages 一两分钟后更新，手机端下次联网打开即为新内容。
