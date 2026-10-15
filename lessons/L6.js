@@ -10,25 +10,246 @@ lexiqueData({
   "objects": "lessons/L6/atlas-objects.webp"
  },
  "practice": {
-  "title": "用 3 句话，描述眼前的人。",
+  "title": "看图，用法语说出来",
   "intro": "先写体型或头发，再写衣服，最后加配饰。参考答案只是其中一种描述，不做自动评分。",
   "pattern": "<b>Il / Elle est…</b>　→　<b>Il / Elle a…</b>　→　<b>Il / Elle porte…</b>",
   "placeholder": "Il / Elle est…\nIl / Elle a…\nIl / Elle porte…",
   "items": [
    {
+    "id": "taille",
+    "img": "lessons/L6/practice/taille.webp",
+    "title": "比身高",
+    "task": "三个人站在一样高的门前：谁高、谁矮、谁中等身高？",
+    "words": [
+     "w1",
+     "w2",
+     "w3",
+     "w87"
+    ],
+    "fr": "L'homme à gauche est grand. La femme au milieu est petite. L'homme à droite est de taille moyenne.",
+    "zh": "左边的男人很高。中间的女人个子矮。右边的男人中等身高。"
+   },
+   {
+    "id": "corpulence",
+    "img": "lessons/L6/practice/corpulence.webp",
+    "title": "说体型",
+    "task": "描述这三个男人的体型，可以再加一句他们穿了什么。",
+    "words": [
+     "w5",
+     "w8",
+     "w9",
+     "w17",
+     "w88"
+    ],
+    "fr": "Le premier homme est maigre. Le deuxième est musclé et sportif. Le troisième est de corpulence moyenne : il porte un pull et un jean.",
+    "zh": "第一个男人很瘦。第二个肌肉发达、很爱运动。第三个是中等体型：他穿着毛衣和牛仔裤。"
+   },
+   {
+    "id": "age",
+    "img": "lessons/L6/practice/age.webp",
+    "title": "谁年轻，谁年长",
+    "task": "比较两个男人的年龄，再说说他们的头发和胡子。",
+    "words": [
+     "w10",
+     "w11",
+     "w64",
+     "w25",
+     "w60"
+    ],
+    "fr": "L'homme à gauche est jeune : il a les cheveux bruns et courts. L'homme à droite est âgé : il a les cheveux gris et une barbe grise.",
+    "zh": "左边的男人很年轻：他是棕色短发。右边的男人年纪大了：他头发花白，留着灰白的胡子。"
+   },
+   {
+    "id": "coiffure",
+    "img": "lessons/L6/practice/coiffure.webp",
+    "title": "四种发型",
+    "task": "按 1–4 的顺序描述每个人的发型。",
+    "words": [
+     "w19",
+     "w18",
+     "w23",
+     "w24",
+     "w65"
+    ],
+    "fr": "La première femme a les cheveux courts. La deuxième a les cheveux longs et ondulés. La troisième a les cheveux bouclés. L'homme est chauve.",
+    "zh": "第一位女士留短发。第二位是长长的波浪卷发。第三位是卷发。那位男士是光头。"
+   },
+   {
+    "id": "barbe",
+    "img": "lessons/L6/practice/barbe.webp",
+    "title": "胡子",
+    "task": "两个男人的胡子不一样：一个是 barbe，一个是 moustache。",
+    "words": [
+     "w25",
+     "w26",
+     "w60",
+     "w19"
+    ],
+    "fr": "L'homme à gauche a une barbe et les cheveux bruns. L'homme à droite a une moustache et les cheveux courts.",
+    "zh": "左边的男人留着络腮胡，头发是棕色的。右边的男人留着小胡子，头发很短。"
+   },
+   {
+    "id": "couleur-cheveux",
+    "img": "lessons/L6/practice/couleur-cheveux.webp",
+    "title": "发色",
+    "task": "四位女士的发色各不相同，用 blond / brun / roux / noir 描述。",
+    "words": [
+     "w59",
+     "w60",
+     "w62",
+     "w63",
+     "w18"
+    ],
+    "fr": "La première femme est blonde. La deuxième est brune. La troisième est rousse. La quatrième a les cheveux noirs. Elles ont toutes les cheveux longs.",
+    "zh": "第一位是金发。第二位是棕发。第三位是红发。第四位是黑发。她们都留着长发。"
+   },
+   {
+    "id": "yeux",
+    "img": "lessons/L6/practice/yeux.webp",
+    "title": "眼睛的颜色",
+    "task": "用 avoir les yeux… 说出每双眼睛的颜色。注意 marron 不变化。",
+    "words": [
+     "w66",
+     "w67",
+     "w68",
+     "w70",
+     "w95"
+    ],
+    "fr": "La personne 1 a les yeux bleus. La personne 2 a les yeux verts. La personne 3 a les yeux marron. La personne 4 a les yeux gris.",
+    "zh": "1 号是蓝眼睛。2 号是绿眼睛。3 号是棕色眼睛。4 号是灰眼睛。"
+   },
+   {
+    "id": "tenue-casual",
+    "img": "lessons/L6/practice/tenue-casual.webp",
+    "title": "日常穿搭",
+    "task": "他穿了什么？说出衣服、颜色和鞋子。",
+    "words": [
+     "w84",
+     "w27",
+     "w35",
+     "w37",
+     "w82",
+     "w75"
+    ],
+    "fr": "Il porte un pull crème, un jean bleu et des chaussures marron. Il a les cheveux courts.",
+    "zh": "他穿着奶油色的毛衣、蓝色牛仔裤和棕色的鞋。他留着短发。"
+   },
+   {
+    "id": "tenue-soiree",
+    "img": "lessons/L6/practice/tenue-soiree.webp",
+    "title": "晚礼服",
+    "task": "她要去参加晚宴：描述她的样子和穿着。",
+    "words": [
+     "w16",
+     "w32",
+     "w83",
+     "w84",
+     "w102"
+    ],
+    "fr": "Elle est élégante. Elle porte une longue robe bordeaux et elle a un petit sac noir.",
+    "zh": "她很优雅。她穿着一条酒红色的长裙，拿着一个黑色的小包。"
+   },
+   {
+    "id": "sport",
+    "img": "lessons/L6/practice/sport.webp",
+    "title": "运动风",
+    "task": "她在跑步：用 sportive、mince 和 porter 描述她。",
+    "words": [
+     "w17",
+     "w4",
+     "w36",
+     "w38",
+     "w18"
+    ],
+    "fr": "Elle est sportive et mince. Elle a les cheveux longs. Elle porte un short noir et des baskets blanches.",
+    "zh": "她爱运动，身材苗条。她留着长发。她穿着黑色短裤和白色运动鞋。"
+   },
+   {
+    "id": "accessoires",
+    "img": "lessons/L6/practice/accessoires.webp",
+    "title": "度假配饰",
+    "task": "她要去海边度假，会戴哪些配饰？",
+    "words": [
+     "w42",
+     "w41",
+     "w45",
+     "w102",
+     "w97"
+    ],
+    "fr": "Elle porte un chapeau, des lunettes de soleil et un foulard. Elle a aussi un sac marron.",
+    "zh": "她戴着帽子、太阳镜和丝巾。她还带着一个棕色的包。"
+   },
+   {
+    "id": "bijoux",
+    "img": "lessons/L6/practice/bijoux.webp",
+    "title": "首饰盒",
+    "task": "首饰盒里有什么？再说说她经常戴哪一件。",
+    "words": [
+     "w47",
+     "w48",
+     "w49",
+     "w50",
+     "w98",
+     "w123"
+    ],
+    "fr": "Dans la boîte, il y a un collier, un bracelet, une bague et des boucles d'oreilles. Elle porte souvent son collier.",
+    "zh": "首饰盒里有一条项链、一只手链、一枚戒指和一对耳环。她经常戴那条项链。"
+   },
+   {
+    "id": "emotions",
+    "img": "lessons/L6/practice/emotions.webp",
+    "title": "脸色与情绪",
+    "task": "用本课的颜色表达说出两个人的状态。",
+    "words": [
+     "w72",
+     "w74",
+     "w106",
+     "w109"
+    ],
+    "fr": "L'homme est rouge de colère. La femme a peur : elle est blanche comme un linge.",
+    "zh": "男人气得满脸通红。女人很害怕：她脸色苍白如纸。"
+   },
+   {
     "img": "lessons/L6/image5.webp",
     "fr": "Elle a les cheveux courts. Elle porte une longue robe. Sa robe est élégante.",
-    "zh": "她留着短发。她穿着一条长裙。她的裙子很优雅。"
+    "zh": "她留着短发。她穿着一条长裙。她的裙子很优雅。",
+    "id": "photo-1",
+    "title": "真实照片 · 晚礼服",
+    "task": "综合练习：头发、衣服、颜色，至少写三句。",
+    "words": [
+     "w19",
+     "w32",
+     "w76",
+     "w16"
+    ]
    },
    {
     "img": "lessons/L6/image6.webp",
     "fr": "Elle a les cheveux longs. Elle porte un jean bleu et des baskets blanches.",
-    "zh": "她留着长发。她穿着蓝色牛仔裤和白色运动鞋。"
+    "zh": "她留着长发。她穿着蓝色牛仔裤和白色运动鞋。",
+    "id": "photo-2",
+    "title": "真实照片 · 休闲装",
+    "task": "综合练习：头发、上衣、裤子和鞋。",
+    "words": [
+     "w18",
+     "w62",
+     "w35",
+     "w38"
+    ]
    },
    {
     "img": "lessons/L6/image7.webp",
     "fr": "Il porte un pull gris et un pantalon bleu. Il porte une montre.",
-    "zh": "他穿着灰色毛衣和蓝色长裤。他戴着手表。"
+    "zh": "他穿着灰色毛衣和蓝色长裤。他戴着手表。",
+    "id": "photo-3",
+    "title": "真实照片 · 男士穿搭",
+    "task": "综合练习：衣服、颜色和配饰。",
+    "words": [
+     "w27",
+     "w34",
+     "w51",
+     "w40"
+    ]
    }
   ]
  },

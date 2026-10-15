@@ -22,7 +22,8 @@ description: 把 materials/<课号>/ 里的新法语课程材料（PDF、Word、
  "id": "L7", "title": "简短中文课题", "label": "LEÇON 07",
  "grid": 5, "atlases": { "<名字>": "lessons/L7/atlas-<名字>.webp" },
  "practice": { "title": "...", "intro": "...", "pattern": "<b>...</b>", "placeholder": "...",
-               "items": [ { "img": "lessons/L7/xxx.webp", "fr": "参考法语", "zh": "中文" } ] },
+               "items": [ { "id": "唯一英文 id", "img": "lessons/L7/practice/xxx.webp", "title": "短标题", "task": "中文任务说明",
+                            "words": ["w1", "w2"], "fr": "参考法语", "zh": "中文" } ] },
  "notes":  [ { "title": "语法/用法要点标题", "html": "<p>…</p>" } ],
  "source": "<p>材料来源说明</p>",
  "audio": {},
@@ -47,6 +48,12 @@ description: 把 materials/<课号>/ 里的新法语课程材料（PDF、Word、
 - 都不写也可以，卡片只显示文字。没有生图工具时，先不配图，并告诉用户哪些卡缺图。
 
 图片统一转成 WebP（宽不超过 1000px，quality 约 80），放在 `lessons/<课号>/`。练习照片同样处理。
+
+看图表达（页面右侧的独立模块，一次一张图）：
+- 每课做 10–16 组，覆盖本课各个主题。有插画拼图时，用 `tools/make_practice.py` 把相关插画拼成练习图：在脚本的 `EXERCISES` 里写好拼图序号、任务、提示词（本课词卡 id）和参考描述后运行。先把 `LESSON` 对应的定义换成新课内容。
+- 拼好后**逐张看一遍**：插画内容要和参考描述一致，边缘不能带进相邻插画。
+- `id` 用稳定的英文短名，她的草稿按 id 保存，更新时不要改。
+- 参考描述 2–4 句，只用本课学过的句型和词，`words` 里列 4–6 个最相关的词。
 
 ## 3. 生成录音
 
