@@ -1,18 +1,21 @@
-"""用 Piper 离线生成一课的法语录音（单词 + 例句 + 看图练习参考句），写回课程 JSON 的 audio 字段。
+"""用 Piper 离线生成一课的法语录音（单词 + 例句 + 看图练习参考句），写回课程文件的 audio 字段。
 
 用法：python tools/make_audio.py L6 <模型.onnx 路径>
 需要：pip install piper-tts lameenc；模型来自 huggingface.co/rhasspy/piper-voices（fr_FR-siwis-medium）。
 已生成过的文本会跳过，只补新的。
 """
-import hashlib, json, os, sys
+import hashlib, os, sys
 import lameenc
 from piper import PiperVoice, SynthesisConfig
 
 sys.stdout.reconfigure(encoding='utf-8')
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import lessonio
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 lesson_id, model = sys.argv[1], sys.argv[2]
-path = os.path.join(ROOT, 'lessons', f'{lesson_id}.json')
-L = json.load(open(path, encoding='utf-8'))
+path = os.path.join(ROOT, 'lessons', f'{lesson_id}.js')
+L = lessonio.read(path)
 out_rel = f'lessons/{lesson_id}/audio'
 os.makedirs(os.path.join(ROOT, out_rel), exist_ok=True)
 
@@ -54,7 +57,6 @@ for f in os.listdir(os.path.join(ROOT, out_rel)):
         os.remove(os.path.join(ROOT, out_rel, f))
 
 L['audio'] = audio
-with open(path, 'w', encoding='utf-8', newline='\n') as f:
-    json.dump(L, f, ensure_ascii=False, indent=1)
+lessonio.write(path, L)
 size = sum(os.path.getsize(os.path.join(ROOT, p)) for p in audio.values())
 print(f'{lesson_id}: {len(audio)} 条录音（新生成 {made} 条），共 {size / 1e6:.1f} MB')

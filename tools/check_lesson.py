@@ -1,7 +1,10 @@
 """检查课程数据是否完整：python tools/check_lesson.py [L7]  (不带参数则检查全部课程)"""
-import json, os, sys
+import os, sys
 
 sys.stdout.reconfigure(encoding='utf-8')
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import lessonio
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REQUIRED = ['id', 'cat', 'term', 'ipa', 'zh', 'ex', 'tr', 'hint']
 
@@ -11,9 +14,12 @@ def check(meta):
     path = os.path.join(ROOT, meta['file'])
     if not os.path.exists(path):
         return [f"找不到 {meta['file']}"], 0
-    L = json.load(open(path, encoding='utf-8'))
+    try:
+        L = lessonio.read(path)
+    except ValueError as e:
+        return [f'文件格式错误：{e}'], 0
     if L.get('id') != meta['id']:
-        errs.append(f"index.json 里的 id {meta['id']} 与文件里的 id {L.get('id')} 不一致")
+        errs.append(f"index.js 里的 id {meta['id']} 与文件里的 id {L.get('id')} 不一致")
     grid = L.get('grid', 5)
     atlases = L.get('atlases', {})
     for name, p in atlases.items():
@@ -47,10 +53,10 @@ def check(meta):
     return errs, len(L.get('cards', []))
 
 
-idx = json.load(open(os.path.join(ROOT, 'lessons', 'index.json'), encoding='utf-8'))
+idx = lessonio.read(os.path.join(ROOT, 'lessons', 'index.js'))
 want = sys.argv[1:] or [l['id'] for l in idx['lessons']]
 if idx.get('default') not in [l['id'] for l in idx['lessons']]:
-    print(f"✗ index.json 的 default {idx.get('default')} 不在课程列表里")
+    print(f"✗ index.js 的 default {idx.get('default')} 不在课程列表里")
 bad = False
 for meta in idx['lessons']:
     if meta['id'] not in want:
@@ -62,6 +68,6 @@ for meta in idx['lessons']:
         print('   - ' + e)
 missing = set(want) - {l['id'] for l in idx['lessons']}
 for m in missing:
-    print(f'✗ {m} 没有登记在 lessons/index.json')
+    print(f'✗ {m} 没有登记在 lessons/index.js')
     bad = True
 sys.exit(1 if bad else 0)

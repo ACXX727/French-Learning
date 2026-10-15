@@ -18,10 +18,14 @@ function loadState(){state={cards:{},drafts:{},history:[]};try{const saved=JSON.
 function save(){try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){toast('当前浏览器无法保存，请用“导出进度”备份。')}}
 function cs(id){return state.cards[id]||{stage:0,due:0,seen:0,star:false}}
 function toast(t){$('#toast').textContent=t;$('#toast').classList.remove('hidden');clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>$('#toast').classList.add('hidden'),4500)}
-async function getJSON(u){const r=await fetch(u,{cache:'no-cache'});if(!r.ok)throw Error(u+' '+r.status);return r.json()}
+// 课程文件是 lexiqueData({...}); 形式的脚本：用 <script> 加载，双击本地文件（file://）也能打开
+let lessonCb=null;window.lexiqueData=d=>{if(lessonCb)lessonCb(d)};
+let loadChain=Promise.resolve();
+// 每次加载有自己的回调：上一个脚本的 onload 晚于下一次加载开始时，不能误清掉下一次的回调
+function loadData(u){const run=()=>new Promise((res,rej)=>{const s=document.createElement('script');let done=false;const cb=d=>{done=true;lessonCb=null;res(d)};lessonCb=cb;const fail=()=>{s.remove();if(lessonCb===cb)lessonCb=null;if(!done)rej(Error('无法加载 '+u))};s.onload=()=>{if(done)s.remove();else fail()};s.onerror=fail;s.src=u+(location.protocol.startsWith('http')?'?t='+Date.now():'');document.head.appendChild(s)});return loadChain=loadChain.then(run,run)}
 async function loadLesson(id){
  const meta=LESSONS.find(l=>l.id===id)||LESSONS[LESSONS.length-1];
- L=await getJSON(meta.file);DATA=L.cards;AUDIO=L.audio||{};KEY=storageKey(L.id);
+ L=await loadData(meta.file);DATA=L.cards;AUDIO=L.audio||{};KEY=storageKey(L.id);
  try{localStorage.setItem('lexique-current',L.id)}catch(e){}
  if(location.hash.slice(1)!==L.id)history.replaceState(null,'','#'+L.id);
  stopAudio();loadState();cat='全部主题';cats=[...new Set(DATA.map(d=>d.cat))];
@@ -101,6 +105,6 @@ window.addEventListener('hashchange',()=>{const id=location.hash.slice(1);if(L&&
 document.addEventListener('keydown',e=>{if(['INPUT','TEXTAREA','SELECT','BUTTON','SUMMARY'].includes(e.target.tagName)||tab!=='learn'||!L||e.ctrlKey||e.metaKey||e.altKey||e.repeat)return;if(e.code==='Space'){e.preventDefault();reveal()}if(['1','2','3'].includes(e.key))grade({'1':'again','2':'hard','3':'good'}[e.key]);if(e.key.toLowerCase()==='r'&&queue[pos])speak(queue[pos])});
 $('#export').onclick=()=>{if(!L)return;const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'}),a=document.createElement('a'),u=URL.createObjectURL(blob);a.href=u;a.download=`词间-${L.id}-学习进度.json`;a.click();setTimeout(()=>URL.revokeObjectURL(u),1000)};$('#import').onclick=()=>$('#importFile').click();$('#importFile').onchange=async e=>{const f=e.target.files[0];if(!f||!L)return;try{if(f.size>5000000)throw Error();const incoming=JSON.parse(await f.text());if(!validState(incoming))throw Error();if(confirm(`将用备份替换 ${L.id} 的学习进度和看图练习草稿。继续吗？`)){state=incoming;save();start();renderLibrary();renderExercises();toast('学习进度已恢复。')}}catch(err){toast(`文件格式不正确，请选择 ${L.id} 导出的进度 JSON。`)}e.target.value=''};
 $('#audioBanner').onclick=showAudioSetup;$('#audioSetupSide').onclick=showAudioSetup;refreshVoices();pickVoice();if(canTTS)speechSynthesis.addEventListener('voiceschanged',pickVoice);setInterval(()=>{if(L)renderStats()},60000);
-(async()=>{try{const idx=await getJSON('lessons/index.json');LESSONS=idx.lessons;let want=location.hash.slice(1);if(!LESSONS.some(l=>l.id===want)){try{want=localStorage.getItem('lexique-current')}catch(e){}}if(!LESSONS.some(l=>l.id===want))want=idx.default;await loadLesson(want);refreshVoices()}catch(e){$('#card').innerHTML='<div class="empty"><h2>课程数据加载失败</h2><p class="muted">请检查网络后刷新。如果是在电脑上直接双击打开的 index.html，需要改用网址或本地服务器打开。</p></div>'}})();
+(async()=>{try{const idx=await loadData('lessons/index.js');LESSONS=idx.lessons;let want=location.hash.slice(1);if(!LESSONS.some(l=>l.id===want)){try{want=localStorage.getItem('lexique-current')}catch(e){}}if(!LESSONS.some(l=>l.id===want))want=idx.default;await loadLesson(want);refreshVoices()}catch(e){$('#card').innerHTML='<div class="empty"><h2>课程数据加载失败</h2><p class="muted">请检查网络后刷新。如果是从本地文件夹打开，请确认 index.html 旁边的 lessons 文件夹完整。</p><p class="muted" style="font-size:11px">'+esc(e&&e.message||e)+'</p></div>'}})();
 if('serviceWorker' in navigator&&location.protocol==='https:')navigator.serviceWorker.register('sw.js').catch(()=>{});
 </script></body></html>

@@ -1,4 +1,4 @@
-# 词间 · 法语词汇学习
+﻿# 词间 · 法语词汇学习
 
 一个纯静态的法语词汇学习页：记忆卡片（间隔复习）、全部词库、看图表达、听音拼写。支持多课，左上角切换。
 
@@ -12,8 +12,8 @@
 
 ```
 index.html            页面（加新课不用改）
-lessons/index.json    课程列表 + 默认打开的课
-lessons/L6.json       一课的全部内容：词卡、练习、说明
+lessons/index.js      课程列表 + 默认打开的课
+lessons/L6.js         一课的全部内容：词卡、练习、说明
 lessons/L6/           这一课的图片（WebP）
 materials/            新课原始材料收件箱（只留本机，不上传）
 tools/check_lesson.py 校验课程数据
@@ -22,11 +22,8 @@ tools/check_lesson.py 校验课程数据
 
 ## 加一课
 
-把材料放进 `materials/L7/`，对 Claude 说「更新 L7」。手动添加的话：写好 `lessons/L7.json`，
-在 `lessons/index.json` 里登记，再运行 `python tools/check_lesson.py L7` 校验。
+把材料放进 `materials/L7/`，对 Claude 说「更新 L7」。手动添加的话：写好 `lessons/L7.js`，
+在 `lessons/index.js` 里登记，再运行 `python tools/check_lesson.py L7` 校验。
 
-本地预览需要用服务器打开（直接双击 index.html 读不到课程数据）：
-
-```
-python -m http.server 8765
-```
+本地直接双击 `index.html` 就能打开。课程文件写成 `lexiqueData({...});` 的形式（内容就是 JSON），
+所以不需要服务器；用 `tools/lessonio.py` 读写。
