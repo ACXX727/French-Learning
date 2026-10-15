@@ -47,7 +47,6 @@ body{background:radial-gradient(1100px 620px at 85% -8%,#ebe7ff 0,transparent 62
 /* 记忆卡片里的“学习 / 复习”切换 */
 .seg{display:flex;gap:4px;background:rgba(236,233,253,.6);border:1px solid rgba(222,218,248,.95);border-radius:14px;padding:4px;width:fit-content;margin:0 0 12px}.seg button{border:0;background:transparent;border-radius:10px;padding:7px 20px;font-size:14px;font-weight:600;color:#585d70;display:flex;align-items:center;gap:6px}.seg button.on{background:#fff;color:#3d3392;box-shadow:0 1px 3px rgba(40,36,80,.12)}
 .seg-badge{min-width:20px;height:20px;border-radius:10px;background:#c2410c;color:#fff;font-size:11px;display:inline-grid;place-items:center;padding:0 6px}
-.stat-btn{text-align:left;width:100%;cursor:pointer}.stat-btn:hover{border-color:#e6c28a}
 .rv-summary{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:12px}.rv-stat{background:var(--glass-strong);border:1px solid var(--glass-line);border-radius:14px;padding:12px 14px;box-shadow:var(--shadow)}.rv-stat strong{display:block;font-size:22px}.rv-stat span{font-size:12px;color:var(--muted)}.rv-stat.due strong{color:#b4561b}.rv-stat.weak strong{color:#923a30}
 .rv-actions{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}.rv-filter{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:4px}.rv-filter .chip.on{background:#5142c4;color:#fff}
 .rv-group{font-size:12px;letter-spacing:1px;color:var(--muted);margin:18px 4px 8px;display:flex;gap:8px;align-items:center}.rv-group small{background:var(--soft);color:#5142c4;border-radius:10px;padding:0 8px;font-size:11px}
@@ -115,7 +114,7 @@ function day(){const n=new Date();return n.getFullYear()+'-'+(n.getMonth()+1)+'-
 function studyDays(){let s=[];try{s=JSON.parse(localStorage.getItem('lexique-days')||'[]')}catch(e){}return new Set([...(Array.isArray(s)?s:[]),...state.history.map(h=>h.day)])}
 function markDay(){try{const s=studyDays();s.add(day());localStorage.setItem('lexique-days',JSON.stringify([...s].slice(-400)))}catch(e){}}
 function streak(){const s=studyDays(),d=new Date(),key=x=>x.getFullYear()+'-'+(x.getMonth()+1)+'-'+x.getDate();if(!s.has(key(d)))d.setDate(d.getDate()-1);let n=0;while(s.has(key(d))){n++;d.setDate(d.getDate()-1)}return n}
-function renderStats(){const seen=DATA.filter(d=>cs(d.id).seen>0).length, due=DATA.filter(d=>cs(d.id).seen&&cs(d.id).due<=Date.now()).length,today=new Set(state.history.filter(h=>h.day===day()).map(h=>h.id)).size,k=streak();$('#stats').innerHTML=[[DATA.length,'词汇与短语','#aba1e8'],[seen,'已学习','#77b6a2'],[due,'到期复习','#dfb171'],[today,k?`今日已练 · 连续 ${k} 天`:'今日已练','#90acd5']].map(([n,t,c],i)=>{const inner=`<i class="dot" style="background:${c}"></i><div><strong>${n}</strong><span>${t}</span></div>`;return i===2?`<button class="stat stat-btn" data-goreview aria-label="到期复习 ${n} 张，打开复习">${inner}</button>`:`<div class="stat">${inner}</div>`}).join('');
+function renderStats(){const seen=DATA.filter(d=>cs(d.id).seen>0).length, due=DATA.filter(d=>cs(d.id).seen&&cs(d.id).due<=Date.now()).length,today=new Set(state.history.filter(h=>h.day===day()).map(h=>h.id)).size,k=streak();$('#stats').innerHTML=[[DATA.length,'词汇与短语','#aba1e8'],[seen,'已学习','#77b6a2'],[due,'到期复习','#dfb171'],[today,k?`今日已练 · 连续 ${k} 天`:'今日已练','#90acd5']].map(([n,t,c])=>`<div class="stat"><i class="dot" style="background:${c}"></i><div><strong>${n}</strong><span>${t}</span></div></div>`).join('');
  const bd=$('#segBadge');bd.textContent=due;bd.classList.toggle('hidden',!due)}
 function filtered(){return DATA.filter(d=>cat==='全部主题'||d.cat===cat)}
 function shuffle(arr){for(let i=arr.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[arr[i],arr[j]]=[arr[j],arr[i]]}return arr}
@@ -259,7 +258,7 @@ document.addEventListener('click',e=>{let b=e.target.closest('button');if(!b){if
  if(b.id==='pmCheck'||b.id==='pmRetry')aiCheck();if(b.id==='pmRefSpeak'&&pItem())speak({ex:pItem().fr},false,true);
  if(b.id==='pmRef'){const box=$('#pmRefBox'),open=box.classList.toggle('hidden')===false;b.setAttribute('aria-expanded',open);b.textContent=open?'收起参考':'参考答案'}
  // 复习
- if(b.id==='segStudy')setSeg('study');if(b.id==='segReview'||b.dataset.goreview!==undefined){if(tab!=='learn')setTab('learn');setSeg('review')}
+ if(b.id==='segStudy')setSeg('study');if(b.id==='segReview')setSeg('review');
  if(b.id==='rvStart'||b.id==='rvWeakStart'){reviewScope=b.id==='rvStart'?'review':'weak';setSeg('study');start()}
  if(b.id==='backReview'){reviewScope=null;start();setSeg('review')}if(b.id==='toStudy')setSeg('study');
  if(b.dataset.rvf){rvFilter=b.dataset.rvf;renderReview()}
