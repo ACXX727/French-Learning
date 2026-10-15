@@ -1,7 +1,7 @@
 // 离线缓存：首次打开后，断网也能用。
 // 页面和课程文件（lessons/*.js）优先联网取最新版（断网时用缓存），所以新增课程不需要改这里。
 // 图片、录音等静态资源优先用缓存；替换了同名图片时，把 CACHE 版本号加一。
-const CACHE = 'lexique-v4';
+const CACHE = 'lexique-v5';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'lessons/index.js',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
 

@@ -12,19 +12,22 @@ lexiqueData({
  "practice": {
   "title": "看图，用法语说出来",
   "intro": "先写体型或头发，再写衣服，最后加配饰。参考答案只是其中一种描述，不做自动评分。",
-  "pattern": "<b>Il / Elle est…</b>　→　<b>Il / Elle a…</b>　→　<b>Il / Elle porte…</b>",
   "placeholder": "Il / Elle est…\nIl / Elle a…\nIl / Elle porte…",
   "items": [
    {
     "id": "taille",
     "img": "lessons/L6/practice/taille.webp",
     "title": "比身高",
-    "task": "三个人站在一样高的门前：谁高、谁矮、谁中等身高？",
+    "ask": "这三个人谁高、谁矮、谁中等身高？",
+    "points": [
+     "从左到右，每个人写一句",
+     "用 être + 形容词；中间是女士，形容词要用阴性"
+    ],
+    "frame": "L'homme à gauche est…\nLa femme au milieu est…\nL'homme à droite est…",
     "words": [
      "w1",
      "w2",
-     "w3",
-     "w87"
+     "w3"
     ],
     "fr": "L'homme à gauche est grand. La femme au milieu est petite. L'homme à droite est de taille moyenne.",
     "zh": "左边的男人很高。中间的女人个子矮。右边的男人中等身高。"
@@ -33,37 +36,53 @@ lexiqueData({
     "id": "corpulence",
     "img": "lessons/L6/practice/corpulence.webp",
     "title": "说体型",
-    "task": "描述这三个男人的体型，可以再加一句他们穿了什么。",
+    "ask": "这三个男人的体型有什么不同？",
+    "points": [
+     "按图上的编号 1–3，每个人写一句",
+     "用 être + 形容词，可以给 2 号多加一个形容词"
+    ],
+    "frame": "Le premier homme est…\nLe deuxième est…\nLe troisième est…",
     "words": [
      "w5",
      "w8",
      "w9",
-     "w17",
-     "w88"
+     "w17"
     ],
-    "fr": "Le premier homme est maigre. Le deuxième est musclé et sportif. Le troisième est de corpulence moyenne : il porte un pull et un jean.",
-    "zh": "第一个男人很瘦。第二个肌肉发达、很爱运动。第三个是中等体型：他穿着毛衣和牛仔裤。"
+    "fr": "Le premier homme est maigre. Le deuxième est musclé et sportif. Le troisième est de corpulence moyenne.",
+    "zh": "第一个男人很瘦。第二个肌肉发达，很爱运动。第三个是中等体型。"
    },
    {
     "id": "age",
     "img": "lessons/L6/practice/age.webp",
     "title": "谁年轻，谁年长",
-    "task": "比较两个男人的年龄，再说说他们的头发和胡子。",
+    "ask": "两个男人谁年轻、谁年长？他们的头发有什么不同？",
+    "points": [
+     "先用 être 说年龄",
+     "再用 avoir 说头发的颜色、长短，以及有没有胡子"
+    ],
+    "frame": "L'homme à gauche est… Il a les cheveux…\nL'homme à droite est… Il a les cheveux… et une…",
     "words": [
      "w10",
      "w11",
+     "w60",
+     "w19",
      "w64",
      "w25",
-     "w60"
+     "w118"
     ],
-    "fr": "L'homme à gauche est jeune : il a les cheveux bruns et courts. L'homme à droite est âgé : il a les cheveux gris et une barbe grise.",
-    "zh": "左边的男人很年轻：他是棕色短发。右边的男人年纪大了：他头发花白，留着灰白的胡子。"
+    "fr": "L'homme à gauche est jeune. Il a les cheveux bruns et courts. L'homme à droite est âgé. Il a les cheveux gris et une barbe grise.",
+    "zh": "左边的男人很年轻，他是棕色短发。右边的男人年纪大了，他头发灰白，留着灰白的胡子。"
    },
    {
     "id": "coiffure",
     "img": "lessons/L6/practice/coiffure.webp",
     "title": "四种发型",
-    "task": "按 1–4 的顺序描述每个人的发型。",
+    "ask": "四个人分别是什么发型？",
+    "points": [
+     "按编号 1–4，每个人写一句",
+     "女士用 avoir les cheveux + 形容词；4 号是光头，用 être chauve"
+    ],
+    "frame": "La première femme a les cheveux…\nLa deuxième a les cheveux…\nLa troisième a les cheveux…\nL'homme est…",
     "words": [
      "w19",
      "w18",
@@ -78,42 +97,54 @@ lexiqueData({
     "id": "barbe",
     "img": "lessons/L6/practice/barbe.webp",
     "title": "胡子",
-    "task": "两个男人的胡子不一样：一个是 barbe，一个是 moustache。",
+    "ask": "两个男人的胡子有什么不同？",
+    "points": [
+     "左边：满脸的络腮胡 une barbe；右边：只在上唇的小胡子 une moustache",
+     "用 avoir 说：Il a une…"
+    ],
+    "frame": "L'homme à gauche a une…\nL'homme à droite a une…\nIls ont les cheveux…",
     "words": [
      "w25",
      "w26",
-     "w60",
-     "w19"
+     "w60"
     ],
-    "fr": "L'homme à gauche a une barbe et les cheveux bruns. L'homme à droite a une moustache et les cheveux courts.",
-    "zh": "左边的男人留着络腮胡，头发是棕色的。右边的男人留着小胡子，头发很短。"
+    "fr": "L'homme à gauche a une barbe. L'homme à droite a une moustache. Ils ont les cheveux bruns.",
+    "zh": "左边的男人留着络腮胡。右边的男人留着小胡子。他们都是棕色头发。"
    },
    {
     "id": "couleur-cheveux",
     "img": "lessons/L6/practice/couleur-cheveux.webp",
     "title": "发色",
-    "task": "四位女士的发色各不相同，用 blond / brun / roux / noir 描述。",
+    "ask": "四位女士的头发分别是什么颜色？",
+    "points": [
+     "按编号 1–4，每个人写一句",
+     "前三位用 être + 阴性形容词（blonde / brune / rousse），4 号用 avoir les cheveux noirs"
+    ],
+    "frame": "La première femme est…\nLa deuxième est…\nLa troisième est…\nLa quatrième a les cheveux…",
     "words": [
      "w59",
      "w60",
      "w62",
-     "w63",
-     "w18"
+     "w63"
     ],
-    "fr": "La première femme est blonde. La deuxième est brune. La troisième est rousse. La quatrième a les cheveux noirs. Elles ont toutes les cheveux longs.",
-    "zh": "第一位是金发。第二位是棕发。第三位是红发。第四位是黑发。她们都留着长发。"
+    "fr": "La première femme est blonde. La deuxième est brune. La troisième est rousse. La quatrième a les cheveux noirs.",
+    "zh": "第一位是金发。第二位是棕发。第三位是红发。第四位是黑发。"
    },
    {
     "id": "yeux",
     "img": "lessons/L6/practice/yeux.webp",
     "title": "眼睛的颜色",
-    "task": "用 avoir les yeux… 说出每双眼睛的颜色。注意 marron 不变化。",
+    "ask": "四双眼睛分别是什么颜色？",
+    "points": [
+     "按编号 1–4，每双眼睛写一句",
+     "yeux 是复数，颜色要加 s；但 marron 不变，不加 s"
+    ],
+    "frame": "La personne 1 a les yeux…\nLa personne 2 a les yeux…\nLa personne 3 a les yeux…\nLa personne 4 a les yeux…",
     "words": [
      "w66",
      "w67",
      "w68",
-     "w70",
-     "w95"
+     "w70"
     ],
     "fr": "La personne 1 a les yeux bleus. La personne 2 a les yeux verts. La personne 3 a les yeux marron. La personne 4 a les yeux gris.",
     "zh": "1 号是蓝眼睛。2 号是绿眼睛。3 号是棕色眼睛。4 号是灰眼睛。"
@@ -122,59 +153,80 @@ lexiqueData({
     "id": "tenue-casual",
     "img": "lessons/L6/practice/tenue-casual.webp",
     "title": "日常穿搭",
-    "task": "他穿了什么？说出衣服、颜色和鞋子。",
+    "ask": "他穿了什么？",
+    "points": [
+     "用一句 Il porte… 依次说上衣、裤子、鞋子",
+     "每件衣服后面加颜色；marron 和 crème 不变"
+    ],
+    "frame": "Il porte un pull…, un jean… et des chaussures…",
     "words": [
      "w84",
      "w27",
      "w35",
      "w37",
      "w82",
+     "w116",
      "w75"
     ],
-    "fr": "Il porte un pull crème, un jean bleu et des chaussures marron. Il a les cheveux courts.",
-    "zh": "他穿着奶油色的毛衣、蓝色牛仔裤和棕色的鞋。他留着短发。"
+    "fr": "Il porte un pull crème, un jean bleu et des chaussures marron.",
+    "zh": "他穿着奶油色的毛衣、蓝色牛仔裤和棕色的鞋。"
    },
    {
     "id": "tenue-soiree",
     "img": "lessons/L6/practice/tenue-soiree.webp",
     "title": "晚礼服",
-    "task": "她要去参加晚宴：描述她的样子和穿着。",
+    "ask": "她要去参加晚宴。她看起来怎么样？穿了什么？",
+    "points": [
+     "先用 Elle est… 说她给人的感觉",
+     "再用 Elle porte… 说裙子的长短和颜色（酒红色 bordeaux 不变）"
+    ],
+    "frame": "Elle est…\nElle porte une longue robe…",
     "words": [
      "w16",
-     "w32",
-     "w83",
      "w84",
-     "w102"
+     "w32",
+     "w83"
     ],
-    "fr": "Elle est élégante. Elle porte une longue robe bordeaux et elle a un petit sac noir.",
-    "zh": "她很优雅。她穿着一条酒红色的长裙，拿着一个黑色的小包。"
+    "fr": "Elle est élégante. Elle porte une longue robe bordeaux.",
+    "zh": "她很优雅。她穿着一条酒红色的长裙。"
    },
    {
     "id": "sport",
     "img": "lessons/L6/practice/sport.webp",
     "title": "运动风",
-    "task": "她在跑步：用 sportive、mince 和 porter 描述她。",
+    "ask": "她是什么样的人？穿了什么？",
+    "points": [
+     "先用 Elle est… 说她的体型和爱好（两个形容词）",
+     "再用 Elle porte… 说短裤和运动鞋，加上颜色"
+    ],
+    "frame": "Elle est… et…\nElle porte un short… et des baskets…",
     "words": [
      "w17",
      "w4",
      "w36",
      "w38",
-     "w18"
+     "w53",
+     "w52"
     ],
-    "fr": "Elle est sportive et mince. Elle a les cheveux longs. Elle porte un short noir et des baskets blanches.",
-    "zh": "她爱运动，身材苗条。她留着长发。她穿着黑色短裤和白色运动鞋。"
+    "fr": "Elle est sportive et mince. Elle porte un short noir et des baskets blanches.",
+    "zh": "她爱运动，身材苗条。她穿着黑色短裤和白色运动鞋。"
    },
    {
     "id": "accessoires",
     "img": "lessons/L6/practice/accessoires.webp",
     "title": "度假配饰",
-    "task": "她要去海边度假，会戴哪些配饰？",
+    "ask": "她去海边度假，会戴哪些配饰？",
+    "points": [
+     "用 Elle porte… 说出图中三样可以戴的配饰",
+     "包是拿着的，不用 porter：Elle a aussi un sac…"
+    ],
+    "frame": "Elle porte un…, des… et un…\nElle a aussi un sac…",
     "words": [
      "w42",
      "w41",
      "w45",
      "w102",
-     "w97"
+     "w75"
     ],
     "fr": "Elle porte un chapeau, des lunettes de soleil et un foulard. Elle a aussi un sac marron.",
     "zh": "她戴着帽子、太阳镜和丝巾。她还带着一个棕色的包。"
@@ -183,73 +235,103 @@ lexiqueData({
     "id": "bijoux",
     "img": "lessons/L6/practice/bijoux.webp",
     "title": "首饰盒",
-    "task": "首饰盒里有什么？再说说她经常戴哪一件。",
+    "ask": "首饰盒里有哪些首饰？",
+    "points": [
+     "用一句 Dans la boîte, il y a… 列出四样首饰",
+     "注意冠词：un collier、une bague、des boucles d’oreilles"
+    ],
+    "frame": "Dans la boîte, il y a un…, un…, une… et des…",
     "words": [
      "w47",
      "w48",
      "w49",
-     "w50",
-     "w98",
-     "w123"
+     "w50"
     ],
-    "fr": "Dans la boîte, il y a un collier, un bracelet, une bague et des boucles d'oreilles. Elle porte souvent son collier.",
-    "zh": "首饰盒里有一条项链、一只手链、一枚戒指和一对耳环。她经常戴那条项链。"
+    "fr": "Dans la boîte, il y a un collier, un bracelet, une bague et des boucles d'oreilles.",
+    "zh": "首饰盒里有一条项链、一只手链、一枚戒指和一对耳环。"
    },
    {
     "id": "emotions",
     "img": "lessons/L6/practice/emotions.webp",
     "title": "脸色与情绪",
-    "task": "用本课的颜色表达说出两个人的状态。",
+    "ask": "两个人分别是什么情绪？脸色怎么样？",
+    "points": [
+     "左边的男人：用颜色表达说“气得满脸通红”",
+     "右边的女人：先说她很害怕，再说她脸色苍白如纸（blanc 要变成阴性 blanche）"
+    ],
+    "frame": "L'homme est rouge de…\nLa femme a peur : elle est blanche comme…",
     "words": [
      "w72",
      "w74",
-     "w106",
      "w109"
     ],
     "fr": "L'homme est rouge de colère. La femme a peur : elle est blanche comme un linge.",
     "zh": "男人气得满脸通红。女人很害怕：她脸色苍白如纸。"
    },
    {
-    "img": "lessons/L6/image5.webp",
-    "fr": "Elle a les cheveux courts. Elle porte une longue robe. Sa robe est élégante.",
-    "zh": "她留着短发。她穿着一条长裙。她的裙子很优雅。",
     "id": "photo-1",
-    "title": "真实照片 · 晚礼服",
-    "task": "综合练习：头发、衣服、颜色，至少写三句。",
+    "img": "lessons/L6/image5.webp",
+    "title": "真实照片 · 红毯礼服",
+    "ask": "这位女士是什么发型？穿戴了什么？",
+    "points": [
+     "先用 avoir 说发型",
+     "再用 porter 说裙子（长短、颜色）和项链",
+     "最后用 être 说她给人的感觉"
+    ],
+    "frame": "Elle a les cheveux…\nElle porte une longue robe… et un…\nElle est…",
     "words": [
      "w19",
      "w32",
      "w76",
+     "w47",
      "w16"
-    ]
+    ],
+    "fr": "Elle a les cheveux courts. Elle porte une longue robe orange et un collier. Elle est élégante.",
+    "zh": "她留着短发。她穿着一条橙色长裙，戴着项链。她很优雅。"
    },
    {
-    "img": "lessons/L6/image6.webp",
-    "fr": "Elle a les cheveux longs. Elle porte un jean bleu et des baskets blanches.",
-    "zh": "她留着长发。她穿着蓝色牛仔裤和白色运动鞋。",
     "id": "photo-2",
+    "img": "lessons/L6/image6.webp",
     "title": "真实照片 · 休闲装",
-    "task": "综合练习：头发、上衣、裤子和鞋。",
+    "ask": "描述她的头发和穿着。",
+    "points": [
+     "头发：长短、卷不卷、颜色（红发是 roux）",
+     "衣服：牛仔裤和运动鞋，加上颜色"
+    ],
+    "frame": "Elle a les cheveux…, … et…\nElle porte un jean… et des baskets…",
     "words": [
      "w18",
+     "w23",
      "w62",
      "w35",
-     "w38"
-    ]
+     "w38",
+     "w116",
+     "w52"
+    ],
+    "fr": "Elle a les cheveux longs, ondulés et roux. Elle porte un jean bleu et des baskets blanches.",
+    "zh": "她留着长长的红色波浪卷发。她穿着蓝色牛仔裤和白色运动鞋。"
    },
    {
-    "img": "lessons/L6/image7.webp",
-    "fr": "Il porte un pull gris et un pantalon bleu. Il porte une montre.",
-    "zh": "他穿着灰色毛衣和蓝色长裤。他戴着手表。",
     "id": "photo-3",
+    "img": "lessons/L6/image7.webp",
     "title": "真实照片 · 男士穿搭",
-    "task": "综合练习：衣服、颜色和配饰。",
+    "ask": "他戴了什么？穿了什么？",
+    "points": [
+     "先用 Il porte… 说两样配饰（眼镜、手表）",
+     "再用 Il porte… 说毛衣、牛仔裤和运动鞋，加上颜色"
+    ],
+    "frame": "Il porte des… et une…\nIl porte un pull…, un jean… et des baskets…",
     "words": [
-     "w27",
-     "w34",
+     "w40",
      "w51",
-     "w40"
-    ]
+     "w27",
+     "w35",
+     "w38",
+     "w116",
+     "w118"
+    ],
+    "fr": "Il porte des lunettes et une montre. Il porte un pull gris, un jean bleu et des baskets grises.",
+    "zh": "他戴着眼镜和手表。他穿着灰色毛衣、蓝色牛仔裤和灰色运动鞋。"
    }
   ]
  },
@@ -269,9 +351,9 @@ lexiqueData({
  ],
  "source": "<p>词汇来自《L6 外貌描述补充+练习》和《L6外貌描述 肤色 发色》。原文教学指令只作为材料，不是本网页必须执行的操作要求。词卡使用 4 组、共 100 个画面的 AI 教学插画，关联词复用同义场景；基础颜色使用精确色样。原文人物照片保留在看图练习中。图片是记忆线索，请结合词义与用法，不把肤色、年龄或美感图当作唯一标准。</p><p>补充词单独成组；总数 123 是合并阴阳性后、包含原文例句与括号词的学习卡数，不是原文独立词项数。</p>",
  "audio": {
-  "grand, grande": "lessons/L6/audio/f7e3c1069a92.mp3",
+  "grand, grande": "lessons/L6/audio/1bb039029e83.mp3",
   "Il est grand.": "lessons/L6/audio/16a87bd00664.mp3",
-  "petit, petite": "lessons/L6/audio/6b05325bb17d.mp3",
+  "petit, petite": "lessons/L6/audio/fe4b41bbe2a5.mp3",
   "Elle est petite.": "lessons/L6/audio/da566a73c562.mp3",
   "de taille moyenne": "lessons/L6/audio/8382d6d218e5.mp3",
   "Elle est de taille moyenne.": "lessons/L6/audio/3f4b87008beb.mp3",
@@ -279,29 +361,29 @@ lexiqueData({
   "Il est grand et mince.": "lessons/L6/audio/895b91c0dc7e.mp3",
   "maigre": "lessons/L6/audio/3521fccef04c.mp3",
   "Le chat est maigre.": "lessons/L6/audio/84b1145caf2f.mp3",
-  "fort, forte": "lessons/L6/audio/f9a3fb1ec0dc.mp3",
+  "fort, forte": "lessons/L6/audio/eb3c93231436.mp3",
   "Elle est forte.": "lessons/L6/audio/f77e4a2c2655.mp3",
-  "gros, grosse": "lessons/L6/audio/bfe61ab9d921.mp3",
+  "gros, grosse": "lessons/L6/audio/db369cc0b059.mp3",
   "Ce chat est gros.": "lessons/L6/audio/2185dc55425b.mp3",
-  "musclé, musclée": "lessons/L6/audio/360f27e5e2b6.mp3",
+  "musclé, musclée": "lessons/L6/audio/1ff0cbbebacb.mp3",
   "Il est musclé.": "lessons/L6/audio/8aae9031f71e.mp3",
   "de corpulence moyenne": "lessons/L6/audio/54b78a8d0576.mp3",
   "Il est de corpulence moyenne.": "lessons/L6/audio/19354961e3e2.mp3",
   "jeune": "lessons/L6/audio/1fe20e97ec09.mp3",
   "Ma sœur est jeune.": "lessons/L6/audio/93f8c23af015.mp3",
-  "âgé, âgée": "lessons/L6/audio/1962f0ed090b.mp3",
+  "âgé, âgée": "lessons/L6/audio/a5ff9751e717.mp3",
   "Mon voisin est âgé.": "lessons/L6/audio/74032de01705.mp3",
   "avoir l’air jeune": "lessons/L6/audio/38e1d4026761.mp3",
   "Il a l’air jeune.": "lessons/L6/audio/206d708a51c6.mp3",
-  "avoir l’air âgé, avoir l’air âgée": "lessons/L6/audio/ab7242f45409.mp3",
+  "avoir l’air âgé, avoir l’air âgée": "lessons/L6/audio/4a42581de233.mp3",
   "Elle a l’air âgée.": "lessons/L6/audio/7af7c2eac5cb.mp3",
-  "beau, belle": "lessons/L6/audio/27311a0bf507.mp3",
+  "beau, belle": "lessons/L6/audio/d825bf917b04.mp3",
   "C’est une belle ville.": "lessons/L6/audio/ce228b5031e8.mp3",
-  "joli, jolie": "lessons/L6/audio/3f65bff78d20.mp3",
+  "joli, jolie": "lessons/L6/audio/db89a69a633f.mp3",
   "Elle porte une jolie robe.": "lessons/L6/audio/e9deb7c77edf.mp3",
-  "élégant, élégante": "lessons/L6/audio/9f8bc2f9b353.mp3",
+  "élégant, élégante": "lessons/L6/audio/9c59308064ce.mp3",
   "Elle est élégante.": "lessons/L6/audio/2750ff5150a8.mp3",
-  "sportif, sportive": "lessons/L6/audio/a1cee6a48b02.mp3",
+  "sportif, sportive": "lessons/L6/audio/6ba9189c08a0.mp3",
   "Mon frère est sportif.": "lessons/L6/audio/e78778b8968f.mp3",
   "avoir les cheveux longs": "lessons/L6/audio/d17a428a22d1.mp3",
   "Elle a les cheveux longs.": "lessons/L6/audio/c002ca462537.mp3",
@@ -371,11 +453,11 @@ lexiqueData({
   "Elle porte des boucles d’oreilles.": "lessons/L6/audio/220f71191f50.mp3",
   "une montre": "lessons/L6/audio/94222715da70.mp3",
   "Il porte une montre.": "lessons/L6/audio/370364c27b96.mp3",
-  "blanc, blanche": "lessons/L6/audio/499d3d14d983.mp3",
+  "blanc, blanche": "lessons/L6/audio/4e48191060e3.mp3",
   "Elle a la peau blanche.": "lessons/L6/audio/2db92b77fb47.mp3",
-  "noir, noire": "lessons/L6/audio/d634b7deac93.mp3",
+  "noir, noire": "lessons/L6/audio/1ae824a24f72.mp3",
   "Il a les cheveux noirs.": "lessons/L6/audio/81aacdeb6c7b.mp3",
-  "bronzé, bronzée": "lessons/L6/audio/e73bedfaed3b.mp3",
+  "bronzé, bronzée": "lessons/L6/audio/b9832c90b309.mp3",
   "Elle est bronzée.": "lessons/L6/audio/73c9e930cf0a.mp3",
   "pâle": "lessons/L6/audio/eacbdbe30c26.mp3",
   "Il est pâle aujourd’hui.": "lessons/L6/audio/2acf529d621f.mp3",
@@ -385,13 +467,13 @@ lexiqueData({
   "Il a la peau foncée.": "lessons/L6/audio/34a1357ab569.mp3",
   "avoir la peau claire": "lessons/L6/audio/805b6344ae14.mp3",
   "Elle a la peau claire.": "lessons/L6/audio/401ff835b096.mp3",
-  "blond, blonde": "lessons/L6/audio/8bbd69582cab.mp3",
+  "blond, blonde": "lessons/L6/audio/3bc9b308cea6.mp3",
   "Elle est blonde.": "lessons/L6/audio/3f50988707ed.mp3",
-  "brun, brune": "lessons/L6/audio/ff3098b977d1.mp3",
+  "brun, brune": "lessons/L6/audio/842f7f354f65.mp3",
   "Il est brun.": "lessons/L6/audio/9f51382f8fc0.mp3",
   "châtain": "lessons/L6/audio/e77e870d177c.mp3",
   "Il a les cheveux châtains.": "lessons/L6/audio/d655fdd70a17.mp3",
-  "roux, rousse": "lessons/L6/audio/343c2d8f9b9b.mp3",
+  "roux, rousse": "lessons/L6/audio/6ce9e5bfcdcf.mp3",
   "Elle est rousse.": "lessons/L6/audio/edebc7af44dc.mp3",
   "avoir les cheveux noirs": "lessons/L6/audio/016bf705adc1.mp3",
   "Elle a les cheveux noirs.": "lessons/L6/audio/f93a72d08de3.mp3",
@@ -474,7 +556,7 @@ lexiqueData({
   "C’est un joli sac.": "lessons/L6/audio/040be933097a.mp3",
   "un bouquet": "lessons/L6/audio/438b968d40d3.mp3",
   "C’est un joli bouquet.": "lessons/L6/audio/0b29b6f6cac9.mp3",
-  "jaloux, jalouse": "lessons/L6/audio/760d5f57b59d.mp3",
+  "jaloux, jalouse": "lessons/L6/audio/fa2d96474a47.mp3",
   "Il est très jaloux.": "lessons/L6/audio/ffd266facfb4.mp3",
   "la jalousie": "lessons/L6/audio/118e501e0c53.mp3",
   "La jalousie est un problème.": "lessons/L6/audio/add817f08799.mp3",
@@ -498,11 +580,11 @@ lexiqueData({
   "Mon sac est jaune.": "lessons/L6/audio/ff3ba0515fda.mp3",
   "rouge": "lessons/L6/audio/d1695e2cec40.mp3",
   "Sa robe est rouge.": "lessons/L6/audio/87f4234231cc.mp3",
-  "bleu, bleue": "lessons/L6/audio/bda8a5d0c31b.mp3",
+  "bleu, bleue": "lessons/L6/audio/aea0cb7873d6.mp3",
   "La veste est bleue.": "lessons/L6/audio/fbae042d75b3.mp3",
-  "vert, verte": "lessons/L6/audio/f65b252d0e10.mp3",
+  "vert, verte": "lessons/L6/audio/78c50777bf53.mp3",
   "La jupe est verte.": "lessons/L6/audio/f90e30d5604d.mp3",
-  "gris, grise": "lessons/L6/audio/ba447d13f09c.mp3",
+  "gris, grise": "lessons/L6/audio/7c79195e7be8.mp3",
   "La veste est grise.": "lessons/L6/audio/cb73b8e4c128.mp3",
   "la colère": "lessons/L6/audio/efa319c0d6d2.mp3",
   "Sa colère passe.": "lessons/L6/audio/539c174a5757.mp3",
@@ -515,21 +597,21 @@ lexiqueData({
   "souvent": "lessons/L6/audio/b70113686a85.mp3",
   "Il porte souvent un pull.": "lessons/L6/audio/8fccba4e4085.mp3",
   "L'homme à gauche est grand. La femme au milieu est petite. L'homme à droite est de taille moyenne.": "lessons/L6/audio/52eb5f84396f.mp3",
-  "Le premier homme est maigre. Le deuxième est musclé et sportif. Le troisième est de corpulence moyenne : il porte un pull et un jean.": "lessons/L6/audio/87fe8a0d90d8.mp3",
-  "L'homme à gauche est jeune : il a les cheveux bruns et courts. L'homme à droite est âgé : il a les cheveux gris et une barbe grise.": "lessons/L6/audio/5b0fb258351c.mp3",
+  "Le premier homme est maigre. Le deuxième est musclé et sportif. Le troisième est de corpulence moyenne.": "lessons/L6/audio/1c8f1e0eb33b.mp3",
+  "L'homme à gauche est jeune. Il a les cheveux bruns et courts. L'homme à droite est âgé. Il a les cheveux gris et une barbe grise.": "lessons/L6/audio/57dc5775ef9e.mp3",
   "La première femme a les cheveux courts. La deuxième a les cheveux longs et ondulés. La troisième a les cheveux bouclés. L'homme est chauve.": "lessons/L6/audio/4503d3c63dfd.mp3",
-  "L'homme à gauche a une barbe et les cheveux bruns. L'homme à droite a une moustache et les cheveux courts.": "lessons/L6/audio/e8bd742285e5.mp3",
-  "La première femme est blonde. La deuxième est brune. La troisième est rousse. La quatrième a les cheveux noirs. Elles ont toutes les cheveux longs.": "lessons/L6/audio/43a5e88f4f3d.mp3",
+  "L'homme à gauche a une barbe. L'homme à droite a une moustache. Ils ont les cheveux bruns.": "lessons/L6/audio/2083773af6de.mp3",
+  "La première femme est blonde. La deuxième est brune. La troisième est rousse. La quatrième a les cheveux noirs.": "lessons/L6/audio/5582976f3568.mp3",
   "La personne 1 a les yeux bleus. La personne 2 a les yeux verts. La personne 3 a les yeux marron. La personne 4 a les yeux gris.": "lessons/L6/audio/f619ed09f7e7.mp3",
-  "Il porte un pull crème, un jean bleu et des chaussures marron. Il a les cheveux courts.": "lessons/L6/audio/f09226d4267f.mp3",
-  "Elle est élégante. Elle porte une longue robe bordeaux et elle a un petit sac noir.": "lessons/L6/audio/56943ef22930.mp3",
-  "Elle est sportive et mince. Elle a les cheveux longs. Elle porte un short noir et des baskets blanches.": "lessons/L6/audio/9bca0971f679.mp3",
+  "Il porte un pull crème, un jean bleu et des chaussures marron.": "lessons/L6/audio/4571ffc4ef16.mp3",
+  "Elle est élégante. Elle porte une longue robe bordeaux.": "lessons/L6/audio/109bc69292cf.mp3",
+  "Elle est sportive et mince. Elle porte un short noir et des baskets blanches.": "lessons/L6/audio/dfa04a10537a.mp3",
   "Elle porte un chapeau, des lunettes de soleil et un foulard. Elle a aussi un sac marron.": "lessons/L6/audio/f7d2ca43f454.mp3",
-  "Dans la boîte, il y a un collier, un bracelet, une bague et des boucles d'oreilles. Elle porte souvent son collier.": "lessons/L6/audio/c0b9ff6aeafc.mp3",
+  "Dans la boîte, il y a un collier, un bracelet, une bague et des boucles d'oreilles.": "lessons/L6/audio/95d2a302864d.mp3",
   "L'homme est rouge de colère. La femme a peur : elle est blanche comme un linge.": "lessons/L6/audio/f188ee76aa02.mp3",
-  "Elle a les cheveux courts. Elle porte une longue robe. Sa robe est élégante.": "lessons/L6/audio/86f05be3c99e.mp3",
-  "Elle a les cheveux longs. Elle porte un jean bleu et des baskets blanches.": "lessons/L6/audio/6124de18c2a1.mp3",
-  "Il porte un pull gris et un pantalon bleu. Il porte une montre.": "lessons/L6/audio/6132290368bf.mp3"
+  "Elle a les cheveux courts. Elle porte une longue robe orange et un collier. Elle est élégante.": "lessons/L6/audio/1dba9ec45d56.mp3",
+  "Elle a les cheveux longs, ondulés et roux. Elle porte un jean bleu et des baskets blanches.": "lessons/L6/audio/dec0cd9bf491.mp3",
+  "Il porte des lunettes et une montre. Il porte un pull gris, un jean bleu et des baskets grises.": "lessons/L6/audio/e44d930c9591.mp3"
  },
  "cards": [
   {

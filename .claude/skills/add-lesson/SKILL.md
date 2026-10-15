@@ -1,6 +1,6 @@
-﻿---
+---
 name: add-lesson
-description: 把 materials/<课号>/ 里的新法语课程材料（PDF、Word、PPT、图片）做成「词间」网站的新一课（lessons/<课号>.js + 图片），校验、本地预览，确认后提交推送。用户说「更新 L7」「加一课」「把新材料加进去」时使用。
+description: 把 materials/<课号>/ 里的新法语课程材料（PDF、Word、PPT、图片）做成「GANGAN」网站的新一课（lessons/<课号>.js + 图片），校验、本地预览，确认后提交推送。用户说「更新 L7」「加一课」「把新材料加进去」时使用。
 ---
 
 # 新增或更新一课
@@ -21,8 +21,9 @@ description: 把 materials/<课号>/ 里的新法语课程材料（PDF、Word、
 {
  "id": "L7", "title": "简短中文课题", "label": "LEÇON 07",
  "grid": 5, "atlases": { "<名字>": "lessons/L7/atlas-<名字>.webp" },
- "practice": { "title": "...", "intro": "...", "pattern": "<b>...</b>", "placeholder": "...",
-               "items": [ { "id": "唯一英文 id", "img": "lessons/L7/practice/xxx.webp", "title": "短标题", "task": "中文任务说明",
+ "practice": { "title": "...",
+               "items": [ { "id": "唯一英文 id", "img": "lessons/L7/practice/xxx.webp", "title": "短标题",
+                            "ask": "一个明确的问题", "points": ["回答步骤 1", "回答步骤 2"], "frame": "句型开头…\n第二句…",
                             "words": ["w1", "w2"], "fr": "参考法语", "zh": "中文" } ] },
  "notes":  [ { "title": "语法/用法要点标题", "html": "<p>…</p>" } ],
  "source": "<p>材料来源说明</p>",
@@ -53,7 +54,9 @@ description: 把 materials/<课号>/ 里的新法语课程材料（PDF、Word、
 - 每课做 10–16 组，覆盖本课各个主题。有插画拼图时，用 `tools/make_practice.py` 把相关插画拼成练习图：在脚本的 `EXERCISES` 里写好拼图序号、任务、提示词（本课词卡 id）和参考描述后运行。先把 `LESSON` 对应的定义换成新课内容。
 - 拼好后**逐张看一遍**：插画内容要和参考描述一致，边缘不能带进相邻插画。
 - `id` 用稳定的英文短名，她的草稿按 id 保存，更新时不要改。
-- 参考描述 2–4 句，只用本课学过的句型和词，`words` 里列 4–6 个最相关的词。
+- 每组的逻辑要闭环：`ask` 只问一件事（谁高谁矮 / 穿了什么），`points` 用 2–3 步告诉她按什么顺序、用哪个句型回答，`frame` 给出带“…”的句型开头，`words` 列 3–6 个要填进去的词。
+- **参考答案里出现的每个词，都必须在 `frame` 或 `words` 里出现过**（比如用到 à gauche，就要写进句型）。她照着句型和提示词就能写出参考答案。
+- 有编号的拼图（1–4）就按编号提问；没编号的按“左 / 中 / 右”提问，并把方位词写进句型。
 
 ## 3. 生成录音
 

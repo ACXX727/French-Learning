@@ -19,27 +19,38 @@ L = lessonio.read(path)
 out_rel = f'lessons/{lesson_id}/audio'
 os.makedirs(os.path.join(ROOT, out_rel), exist_ok=True)
 
-# 与页面 speak() 的取词规则一致：单词读 variants 用逗号连接，例句读 ex
-texts = []
+# 与页面 speak() 的取词规则一致：单词读 variants 用逗号连接作为键，例句读 ex
+# 单词的几种形式（grand / grande）分开合成，中间插入 GAP 秒静音，听得出是两个词
+GAP = 0.6
+texts = {}
 for c in L['cards']:
-    texts.append(', '.join(c.get('variants') or c['term'].split(' / ')))
-    texts.append(c['ex'])
-texts += [x['fr'] for x in L.get('practice', {}).get('items', [])]
-texts = list(dict.fromkeys(t.strip() for t in texts if t.strip()))
+    forms = c.get('variants') or c['term'].split(' / ')
+    texts[', '.join(forms)] = forms
+    texts[c['ex']] = [c['ex']]
+for x in L.get('practice', {}).get('items', []):
+    texts[x['fr']] = [x['fr']]
+texts = {k.strip(): v for k, v in texts.items() if k.strip()}
 
 voice = PiperVoice.load(model)
 cfg = SynthesisConfig(length_scale=1.08)  # 略放慢，便于跟读
 audio = {}
 made = 0
-for t in texts:
-    name = hashlib.sha1(t.encode('utf-8')).hexdigest()[:12] + '.mp3'
+for t, forms in texts.items():
+    # 多形式的词把停顿时长也算进文件名，调整 GAP 后会自动重新生成
+    key = t if len(forms) == 1 else f'{t}|gap{GAP}'
+    name = hashlib.sha1(key.encode('utf-8')).hexdigest()[:12] + '.mp3'
     rel = f'{out_rel}/{name}'
     full = os.path.join(ROOT, rel)
     if not os.path.exists(full):
-        pcm, rate = b'', voice.config.sample_rate
-        for chunk in voice.synthesize(t, syn_config=cfg):
-            pcm += chunk.audio_int16_bytes
-            rate = chunk.sample_rate
+        rate = voice.config.sample_rate
+        pieces = []
+        for form in forms:
+            pcm = b''
+            for chunk in voice.synthesize(form, syn_config=cfg):
+                pcm += chunk.audio_int16_bytes
+                rate = chunk.sample_rate
+            pieces.append(pcm)
+        pcm = (b'\x00\x00' * int(rate * GAP)).join(pieces)
         pcm = b'\x00\x00' * int(rate * 0.12) + pcm  # 开头留一点静音，避免手机吞掉第一个音
         enc = lameenc.Encoder()
         enc.set_bit_rate(48)
