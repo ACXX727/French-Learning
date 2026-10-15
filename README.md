@@ -27,3 +27,6 @@ tools/check_lesson.py 校验课程数据
 
 本地直接双击 `index.html` 就能打开。课程文件写成 `lexiqueData({...});` 的形式（内容就是 JSON），
 所以不需要服务器；用 `tools/lessonio.py` 读写。
+
+## 最终链接
+https://acxx727.github.io/French-Learning/#L6
