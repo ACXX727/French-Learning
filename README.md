@@ -1,12 +1,31 @@
-# 词间 · L6 法语外貌描述
+# 词间 · 法语词汇学习
 
-一个纯静态的法语词汇学习页：记忆卡片（间隔复习）、全部词库、看图表达、听音拼写。
+一个纯静态的法语词汇学习页：记忆卡片（间隔复习）、全部词库、看图表达、听音拼写。支持多课，左上角切换。
 
-- 打开方式：GitHub Pages 网址，手机上可在浏览器菜单里选“添加到主屏幕”，像 App 一样使用。
+- 打开方式：GitHub Pages 网址，手机上在浏览器菜单里选“添加到主屏幕”，就能像 App 一样使用。`网址#L6` 可以直接打开某一课。
 - 朗读：使用设备自带的法语（法国）语音，不联网、不收费。
 - 离线：首次打开后会缓存页面和图片，断网也能用。
-- 进度：保存在当前浏览器（localStorage），不会自动跨设备同步；换设备请用右上角“导出进度 / 导入”。
+- 进度：每课分开保存在当前浏览器（localStorage），不会自动跨设备同步；换设备时用右上角“导出进度 / 导入”。
 
-## 更新内容后
+## 目录
 
-修改 `index.html` 或 `assets/` 里的文件后，把 `sw.js` 里的 `CACHE` 版本号加一，手机端才会拿到新版本。
+```
+index.html            页面（加新课不用改）
+lessons/index.json    课程列表 + 默认打开的课
+lessons/L6.json       一课的全部内容：词卡、练习、说明
+lessons/L6/           这一课的图片（WebP）
+materials/            新课原始材料收件箱（只留本机，不上传）
+tools/check_lesson.py 校验课程数据
+.claude/skills/add-lesson  让 Claude 按固定流程加新课
+```
+
+## 加一课
+
+把材料放进 `materials/L7/`，对 Claude 说「更新 L7」。手动添加的话：写好 `lessons/L7.json`，
+在 `lessons/index.json` 里登记，再运行 `python tools/check_lesson.py L7` 校验。
+
+本地预览需要用服务器打开（直接双击 index.html 读不到课程数据）：
+
+```
+python -m http.server 8765
+```

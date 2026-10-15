@@ -1,0 +1,1789 @@
+{
+ "id": "L6",
+ "title": "外貌描述",
+ "label": "LEÇON 06",
+ "grid": 5,
+ "atlases": {
+  "people": "lessons/L6/atlas-people.webp",
+  "hair": "lessons/L6/atlas-hair.webp",
+  "clothes": "lessons/L6/atlas-clothes.webp",
+  "objects": "lessons/L6/atlas-objects.webp"
+ },
+ "practice": {
+  "title": "用 3 句话，描述眼前的人。",
+  "intro": "先写体型或头发，再写衣服，最后加配饰。参考答案只是其中一种描述，不做自动评分。",
+  "pattern": "<b>Il / Elle est…</b>　→　<b>Il / Elle a…</b>　→　<b>Il / Elle porte…</b>",
+  "placeholder": "Il / Elle est…\nIl / Elle a…\nIl / Elle porte…",
+  "items": [
+   {
+    "img": "lessons/L6/image5.webp",
+    "fr": "Elle a les cheveux courts. Elle porte une longue robe. Sa robe est élégante.",
+    "zh": "她留着短发。她穿着一条长裙。她的裙子很优雅。"
+   },
+   {
+    "img": "lessons/L6/image6.webp",
+    "fr": "Elle a les cheveux longs. Elle porte un jean bleu et des baskets blanches.",
+    "zh": "她留着长发。她穿着蓝色牛仔裤和白色运动鞋。"
+   },
+   {
+    "img": "lessons/L6/image7.webp",
+    "fr": "Il porte un pull gris et un pantalon bleu. Il porte une montre.",
+    "zh": "他穿着灰色毛衣和蓝色长裤。他戴着手表。"
+   }
+  ]
+ },
+ "notes": [
+  {
+   "title": "三个句型就够开始",
+   "html": "<p><b>être + 形容词</b><br>Elle est grande et mince. 她高而苗条。</p><p><b>avoir + 身体部位 + 形容词</b><br>Il a les cheveux courts. 他留短发。<br>Elle a les yeux bleus. 她有蓝眼睛。</p><p><b>porter + 衣服 / 配饰</b><br>Elle porte une robe et un collier.<br>她穿着连衣裙，戴着项链。</p><p><b>avoir l’air + 形容词</b><br>Elle a l’air jeune. 她看起来年轻。</p>"
+  },
+  {
+   "title": "颜色，什么时候加 s？",
+   "html": "<p>普通颜色形容词配合性数：<br>une veste <b>noire</b> / des yeux <b>bleus</b>。</p><p>本课中以下颜色用法不变：<br><b>marron, orange, noisette, olive, turquoise, kaki, chocolat, crème, bordeaux</b>。</p><p>注意：<b>des cheveux châtains</b> 要加 s。普通颜色规则也有例外，如 rose 会配合，不能理解成“所有来源于名词的颜色都不变”。</p><p><a href=\"https://dictionnaire.lerobert.com/guide/accord-des-adjectifs-de-couleur\" target=\"_blank\" rel=\"noopener\">Le Robert：颜色配合规则 ↗</a></p>"
+  },
+  {
+   "title": "原文校对与使用语气",
+   "html": "<ul><li>les cheveux <b>ondulés</b>：补上复数 s。</li><li>Il est noir / Elle est noire：原文部分 Il/Elle 与词尾混排，已改成一致示例。</li><li><b>kaki</b> 在裤子颜色里是卡其色；另一个同形名词可以指柿子。</li><li><b>joli</b> 并非只能形容女性：un joli garçon 也成立。</li><li><b>barbe</b> 指下巴、脸颊等处胡须，不要求同时有 moustache。</li><li>gros、maigre 描述人时可能不礼貌；fort 的具体意思依语境而定。</li><li>原文打叉的 jaune / rouge / orange 肤色句保留为误用提醒，不作为正确人群描述来背；rouge 可以描述暂时脸红。</li></ul><p><a href=\"https://www.larousse.fr/dictionnaires/francais/ch%C3%A2tain/14899\" target=\"_blank\" rel=\"noopener\">châtain 用法 ↗</a> · <a href=\"https://www.dictionnaire-academie.fr/article/A9T2745\" target=\"_blank\" rel=\"noopener\">turquoise 词条 ↗</a> · <a href=\"https://www.dictionnaire-academie.fr/article/A9K0014\" target=\"_blank\" rel=\"noopener\">kaki 颜色义 ↗</a> · <a href=\"https://www.larousse.fr/dictionnaires/francais/gar%C3%A7on/36087\" target=\"_blank\" rel=\"noopener\">joli garçon 用法 ↗</a></p>"
+  }
+ ],
+ "source": "<p>词汇来自《L6 外貌描述补充+练习》和《L6外貌描述 肤色 发色》。原文教学指令只作为材料，不是本网页必须执行的操作要求。词卡使用 4 组、共 100 个画面的 AI 教学插画，关联词复用同义场景；基础颜色使用精确色样。原文人物照片保留在看图练习中。图片是记忆线索，请结合词义与用法，不把肤色、年龄或美感图当作唯一标准。</p><p>补充词单独成组；总数 123 是合并阴阳性后、包含原文例句与括号词的学习卡数，不是原文独立词项数。</p>",
+ "audio": {},
+ "cards": [
+  {
+   "id": "w1",
+   "cat": "体型",
+   "term": "grand / grande",
+   "ipa": "ɡʁɑ̃ / ɡʁɑ̃d",
+   "zh": "高的",
+   "ex": "Il est grand.",
+   "tr": "他个子高。",
+   "hint": "与 petit 对照；阴性 grande 的 d 要读出来。",
+   "art": [
+    "people",
+    0
+   ]
+  },
+  {
+   "id": "w2",
+   "cat": "体型",
+   "term": "petit / petite",
+   "ipa": "pə.ti / pə.tit",
+   "zh": "矮的；小的",
+   "ex": "Elle est petite.",
+   "tr": "她个子矮。",
+   "hint": "petite 的 t 发音；形容身高用 être。",
+   "art": [
+    "people",
+    1
+   ]
+  },
+  {
+   "id": "w3",
+   "cat": "体型",
+   "term": "de taille moyenne",
+   "ipa": "də taj mwa.jɛn",
+   "zh": "中等身高",
+   "ex": "Elle est de taille moyenne.",
+   "tr": "她中等身高。",
+   "hint": "把 de taille moyenne 整块记在 être 后面。",
+   "art": [
+    "people",
+    2
+   ]
+  },
+  {
+   "id": "w4",
+   "cat": "体型",
+   "term": "mince",
+   "ipa": "mɛ̃s",
+   "zh": "苗条的",
+   "ex": "Il est grand et mince.",
+   "tr": "他又高又苗条。",
+   "hint": "mince 通常语气较正面；阴阳性同形。",
+   "art": [
+    "people",
+    3
+   ]
+  },
+  {
+   "id": "w5",
+   "cat": "体型",
+   "term": "maigre",
+   "ipa": "mɛɡʁ",
+   "zh": "瘦的；干瘦的",
+   "ex": "Le chat est maigre.",
+   "tr": "这只猫很瘦。",
+   "hint": "与 mince 对照，maigre 常暗示过瘦。",
+   "art": [
+    "people",
+    4
+   ]
+  },
+  {
+   "id": "w6",
+   "cat": "体型",
+   "term": "fort / forte",
+   "ipa": "fɔʁ / fɔʁt",
+   "zh": "强壮的；壮实的",
+   "ex": "Elle est forte.",
+   "tr": "她很强壮。",
+   "hint": "可描述力气大，也可委婉描述体型；看语境。",
+   "art": [
+    "people",
+    5
+   ],
+   "caption": "fort 也可表示力气大；图中展示搬重物。"
+  },
+  {
+   "id": "w7",
+   "cat": "体型",
+   "term": "gros / grosse",
+   "ipa": "ɡʁo / ɡʁos",
+   "zh": "胖的；大的",
+   "ex": "Ce chat est gros.",
+   "tr": "这只猫很胖。",
+   "hint": "形容人可能冒犯；grosse 的 ss 读 /s/。",
+   "art": [
+    "people",
+    6
+   ]
+  },
+  {
+   "id": "w8",
+   "cat": "体型",
+   "term": "musclé / musclée",
+   "ipa": "mys.kle / mys.kle",
+   "zh": "肌肉发达的",
+   "ex": "Il est musclé.",
+   "tr": "他肌肉发达。",
+   "hint": "muscle 加 é → musclé；阴性只加 e，读音不变。",
+   "art": [
+    "people",
+    7
+   ]
+  },
+  {
+   "id": "w9",
+   "cat": "体型",
+   "term": "de corpulence moyenne",
+   "ipa": "də kɔʁ.py.lɑ̃s mwa.jɛn",
+   "zh": "中等体型",
+   "ex": "Il est de corpulence moyenne.",
+   "tr": "他体型适中。",
+   "hint": "taille 管身高，corpulence 管体型。",
+   "art": [
+    "people",
+    8
+   ]
+  },
+  {
+   "id": "w10",
+   "cat": "年龄外貌",
+   "term": "jeune",
+   "ipa": "ʒœn",
+   "zh": "年轻的",
+   "ex": "Ma sœur est jeune.",
+   "tr": "我姐姐很年轻。",
+   "hint": "与 âgé 成对记；阴阳性同形。",
+   "art": [
+    "people",
+    9
+   ]
+  },
+  {
+   "id": "w11",
+   "cat": "年龄外貌",
+   "term": "âgé / âgée",
+   "ipa": "ɑ.ʒe / ɑ.ʒe",
+   "zh": "年长的",
+   "ex": "Mon voisin est âgé.",
+   "tr": "我的邻居年纪大了。",
+   "hint": "âgé 的 g 在 é 前读 /ʒ/。",
+   "art": [
+    "people",
+    10
+   ]
+  },
+  {
+   "id": "w12",
+   "cat": "年龄外貌",
+   "term": "avoir l’air jeune",
+   "ipa": "a.vwaʁ lɛʁ ʒœn",
+   "zh": "看起来年轻",
+   "ex": "Il a l’air jeune.",
+   "tr": "他看起来年轻。",
+   "hint": "avoir l’air + 形容词；不要换成 être l’air。",
+   "art": [
+    "people",
+    9
+   ],
+   "caption": "看起来年轻：图像呈现外观，不表示实际年龄。"
+  },
+  {
+   "id": "w13",
+   "cat": "年龄外貌",
+   "term": "avoir l’air âgé / âgée",
+   "ipa": "a.vwaʁ lɛʁ ɑ.ʒe",
+   "zh": "看起来年长",
+   "ex": "Elle a l’air âgée.",
+   "tr": "她看起来年纪较大。",
+   "hint": "elle → âgée；avoir 变位为 a。",
+   "art": [
+    "people",
+    10
+   ],
+   "caption": "看起来年长：图像呈现外观，不表示实际年龄。",
+   "variants": [
+    "avoir l’air âgé",
+    "avoir l’air âgée"
+   ]
+  },
+  {
+   "id": "w14",
+   "cat": "年龄外貌",
+   "term": "beau / belle",
+   "ipa": "bo / bɛl",
+   "zh": "帅的；美丽的",
+   "ex": "C’est une belle ville.",
+   "tr": "这是一座美丽的城市。",
+   "hint": "beau → belle；元音或哑音 h 前的阳性单数用 bel：un bel homme。",
+   "art": [
+    "people",
+    11
+   ],
+   "caption": "美感是主观的；图像仅用于联想。"
+  },
+  {
+   "id": "w15",
+   "cat": "年龄外貌",
+   "term": "joli / jolie",
+   "ipa": "ʒɔ.li / ʒɔ.li",
+   "zh": "漂亮的；好看的",
+   "ex": "Elle porte une jolie robe.",
+   "tr": "她穿着一条漂亮裙子。",
+   "hint": "可形容人或物；并非只能形容女性，如 un joli garçon。",
+   "art": [
+    "people",
+    12
+   ],
+   "caption": "une jolie petite maison · 漂亮的小房子"
+  },
+  {
+   "id": "w16",
+   "cat": "年龄外貌",
+   "term": "élégant / élégante",
+   "ipa": "e.le.ɡɑ̃ / e.le.ɡɑ̃t",
+   "zh": "优雅的",
+   "ex": "Elle est élégante.",
+   "tr": "她很优雅。",
+   "hint": "想象整洁的穿搭；阴性末尾 t 发音。",
+   "art": [
+    "people",
+    13
+   ]
+  },
+  {
+   "id": "w17",
+   "cat": "年龄外貌",
+   "term": "sportif / sportive",
+   "ipa": "spɔʁ.tif / spɔʁ.tiv",
+   "zh": "爱运动的；运动型的",
+   "ex": "Mon frère est sportif.",
+   "tr": "我哥哥爱运动。",
+   "hint": "常见阴性变化 f → ve。",
+   "art": [
+    "people",
+    14
+   ]
+  },
+  {
+   "id": "w18",
+   "cat": "发型胡须",
+   "term": "avoir les cheveux longs",
+   "ipa": "a.vwaʁ le ʃə.vø lɔ̃",
+   "zh": "留长发",
+   "ex": "Elle a les cheveux longs.",
+   "tr": "她留着长发。",
+   "hint": "cheveux 是复数，所以用 longs。",
+   "art": [
+    "hair",
+    0
+   ]
+  },
+  {
+   "id": "w19",
+   "cat": "发型胡须",
+   "term": "avoir les cheveux courts",
+   "ipa": "a.vwaʁ le ʃə.vø kuʁ",
+   "zh": "留短发",
+   "ex": "Il a les cheveux courts.",
+   "tr": "他留着短发。",
+   "hint": "longs ↔ courts；court 末尾 t 通常不发音。",
+   "art": [
+    "hair",
+    1
+   ]
+  },
+  {
+   "id": "w20",
+   "cat": "发型胡须",
+   "term": "avoir les cheveux mi-longs",
+   "ipa": "a.vwaʁ le ʃə.vø mi.lɔ̃",
+   "zh": "留中长发",
+   "ex": "Elle a les cheveux mi-longs.",
+   "tr": "她留着中长发。",
+   "hint": "mi- 表示一半／中间，mi 不变。",
+   "art": [
+    "hair",
+    2
+   ]
+  },
+  {
+   "id": "w21",
+   "cat": "发型胡须",
+   "term": "les cheveux raides",
+   "ipa": "le ʃə.vø ʁɛd",
+   "zh": "直发",
+   "ex": "Il a les cheveux raides.",
+   "tr": "他的头发是直的。",
+   "hint": "raide 强调直、不弯曲。",
+   "art": [
+    "hair",
+    3
+   ]
+  },
+  {
+   "id": "w22",
+   "cat": "发型胡须",
+   "term": "les cheveux lisses",
+   "ipa": "le ʃə.vø lis",
+   "zh": "顺直的头发",
+   "ex": "Elle a les cheveux lisses.",
+   "tr": "她的头发很顺直。",
+   "hint": "lisse 强调平滑、顺直，ss 读 /s/。",
+   "art": [
+    "hair",
+    4
+   ]
+  },
+  {
+   "id": "w23",
+   "cat": "发型胡须",
+   "term": "les cheveux ondulés",
+   "ipa": "le ʃə.vø ɔ̃.dy.le",
+   "zh": "波浪卷发",
+   "ex": "Elle a les cheveux ondulés.",
+   "tr": "她有一头波浪卷发。",
+   "hint": "想象柔和波浪；原文 ondulé 已补复数 s。",
+   "art": [
+    "hair",
+    5
+   ]
+  },
+  {
+   "id": "w24",
+   "cat": "发型胡须",
+   "term": "les cheveux bouclés",
+   "ipa": "le ʃə.vø bu.kle",
+   "zh": "卷发",
+   "ex": "Elle a les cheveux mi-longs et bouclés.",
+   "tr": "她留着中长卷发。",
+   "hint": "boucle 是环；卷发像一个个环。",
+   "art": [
+    "hair",
+    6
+   ]
+  },
+  {
+   "id": "w25",
+   "cat": "发型胡须",
+   "term": "une barbe",
+   "ipa": "yn baʁb",
+   "zh": "胡须；络腮胡",
+   "ex": "Il a une barbe.",
+   "tr": "他留着胡子。",
+   "hint": "barbe 在下巴、脸颊；不必同时有小胡子。",
+   "art": [
+    "hair",
+    7
+   ]
+  },
+  {
+   "id": "w26",
+   "cat": "发型胡须",
+   "term": "une moustache",
+   "ipa": "yn mus.taʃ",
+   "zh": "上唇的小胡子",
+   "ex": "Il a une moustache.",
+   "tr": "他留着小胡子。",
+   "hint": "只记位置：嘴唇上方。",
+   "art": [
+    "hair",
+    8
+   ]
+  },
+  {
+   "id": "w27",
+   "cat": "衣服",
+   "term": "un pull",
+   "ipa": "œ̃ pyl",
+   "zh": "毛衣",
+   "ex": "Je porte un pull bleu.",
+   "tr": "我穿着蓝毛衣。",
+   "hint": "u 读 /y/，不是英语 pull 的元音。",
+   "art": [
+    "clothes",
+    0
+   ]
+  },
+  {
+   "id": "w28",
+   "cat": "衣服",
+   "term": "un sweat",
+   "ipa": "œ̃ swit",
+   "zh": "卫衣",
+   "ex": "Il porte un sweat gris.",
+   "tr": "他穿着灰色卫衣。",
+   "hint": "法语里常读 /swit/，不要按英语 sweat 读。",
+   "art": [
+    "clothes",
+    1
+   ]
+  },
+  {
+   "id": "w29",
+   "cat": "衣服",
+   "term": "une veste",
+   "ipa": "yn vɛst",
+   "zh": "夹克；外套",
+   "ex": "Elle porte une veste noire.",
+   "tr": "她穿着黑夹克。",
+   "hint": "veste 较短，manteau 通常更长。",
+   "art": [
+    "clothes",
+    2
+   ]
+  },
+  {
+   "id": "w30",
+   "cat": "衣服",
+   "term": "un manteau",
+   "ipa": "œ̃ mɑ̃.to",
+   "zh": "大衣",
+   "ex": "Mon manteau est chaud.",
+   "tr": "我的大衣很暖和。",
+   "hint": "eau 一起读 /o/。",
+   "art": [
+    "clothes",
+    3
+   ]
+  },
+  {
+   "id": "w31",
+   "cat": "衣服",
+   "term": "un costume",
+   "ipa": "œ̃ kɔs.tym",
+   "zh": "西装；服装",
+   "ex": "Il porte un costume marron.",
+   "tr": "他穿着棕色西装。",
+   "hint": "外貌描述中常指一套西装。",
+   "art": [
+    "clothes",
+    4
+   ]
+  },
+  {
+   "id": "w32",
+   "cat": "衣服",
+   "term": "une robe",
+   "ipa": "yn ʁɔb",
+   "zh": "连衣裙",
+   "ex": "Elle porte une robe rouge.",
+   "tr": "她穿着红色连衣裙。",
+   "hint": "robe 是连身的；jupe 只有下半身。",
+   "art": [
+    "clothes",
+    5
+   ]
+  },
+  {
+   "id": "w33",
+   "cat": "衣服",
+   "term": "une jupe",
+   "ipa": "yn ʒyp",
+   "zh": "半身裙",
+   "ex": "Ma jupe est verte.",
+   "tr": "我的半身裙是绿色的。",
+   "hint": "与 robe 对照；u 读 /y/。",
+   "art": [
+    "clothes",
+    6
+   ]
+  },
+  {
+   "id": "w34",
+   "cat": "衣服",
+   "term": "un pantalon",
+   "ipa": "œ̃ pɑ̃.ta.lɔ̃",
+   "zh": "长裤",
+   "ex": "Il porte un pantalon noir.",
+   "tr": "他穿着黑色长裤。",
+   "hint": "一条裤子在法语中用单数 un pantalon。",
+   "art": [
+    "clothes",
+    7
+   ]
+  },
+  {
+   "id": "w35",
+   "cat": "衣服",
+   "term": "un jean",
+   "ipa": "œ̃ dʒin",
+   "zh": "牛仔裤",
+   "ex": "Je porte un jean bleu.",
+   "tr": "我穿着蓝色牛仔裤。",
+   "hint": "这里不是人名 Jean /ʒɑ̃/。",
+   "art": [
+    "clothes",
+    8
+   ]
+  },
+  {
+   "id": "w36",
+   "cat": "衣服",
+   "term": "un short",
+   "ipa": "œ̃ ʃɔʁt",
+   "zh": "短裤",
+   "ex": "Il porte un short.",
+   "tr": "他穿着短裤。",
+   "hint": "末尾 t 要发音。",
+   "art": [
+    "clothes",
+    9
+   ]
+  },
+  {
+   "id": "w37",
+   "cat": "衣服",
+   "term": "des chaussures",
+   "ipa": "de ʃo.syʁ",
+   "zh": "鞋",
+   "ex": "Mes chaussures sont noires.",
+   "tr": "我的鞋是黑色的。",
+   "hint": "一双鞋用复数；une chaussure 是一只鞋。",
+   "art": [
+    "clothes",
+    10
+   ]
+  },
+  {
+   "id": "w38",
+   "cat": "衣服",
+   "term": "des baskets",
+   "ipa": "de bas.kɛt",
+   "zh": "运动鞋",
+   "ex": "Elle porte des baskets blanches.",
+   "tr": "她穿着白色运动鞋。",
+   "hint": "词尾 t 发音，复数 s 不发音。",
+   "art": [
+    "clothes",
+    11
+   ]
+  },
+  {
+   "id": "w39",
+   "cat": "衣服",
+   "term": "des bottes",
+   "ipa": "de bɔt",
+   "zh": "靴子",
+   "ex": "Je porte des bottes en hiver.",
+   "tr": "我冬天穿靴子。",
+   "hint": "想象高到脚踝以上的鞋筒。",
+   "art": [
+    "clothes",
+    12
+   ]
+  },
+  {
+   "id": "w40",
+   "cat": "配饰首饰",
+   "term": "des lunettes",
+   "ipa": "de ly.nɛt",
+   "zh": "眼镜",
+   "ex": "Il porte des lunettes.",
+   "tr": "他戴着眼镜。",
+   "hint": "眼镜用复数，戴眼镜用 porter。",
+   "art": [
+    "clothes",
+    13
+   ]
+  },
+  {
+   "id": "w41",
+   "cat": "配饰首饰",
+   "term": "des lunettes de soleil",
+   "ipa": "de ly.nɛt də sɔ.lɛj",
+   "zh": "太阳镜",
+   "ex": "Elle porte des lunettes de soleil.",
+   "tr": "她戴着太阳镜。",
+   "hint": "de soleil = 防太阳的；soleil 末尾读 /ɛj/。",
+   "art": [
+    "clothes",
+    14
+   ]
+  },
+  {
+   "id": "w42",
+   "cat": "配饰首饰",
+   "term": "un chapeau",
+   "ipa": "œ̃ ʃa.po",
+   "zh": "帽子",
+   "ex": "Il porte un chapeau.",
+   "tr": "他戴着帽子。",
+   "hint": "eau 读 /o/；与 casquette 配图对照。",
+   "art": [
+    "clothes",
+    15
+   ]
+  },
+  {
+   "id": "w43",
+   "cat": "配饰首饰",
+   "term": "une casquette",
+   "ipa": "yn kas.kɛt",
+   "zh": "鸭舌帽",
+   "ex": "Ma casquette est bleue.",
+   "tr": "我的鸭舌帽是蓝色的。",
+   "hint": "想象向前伸出的帽檐。",
+   "art": [
+    "clothes",
+    16
+   ]
+  },
+  {
+   "id": "w44",
+   "cat": "配饰首饰",
+   "term": "une écharpe",
+   "ipa": "yn e.ʃaʁp",
+   "zh": "围巾",
+   "ex": "Elle porte une écharpe en hiver.",
+   "tr": "她冬天戴围巾。",
+   "hint": "écharpe 常用于保暖。",
+   "art": [
+    "clothes",
+    17
+   ]
+  },
+  {
+   "id": "w45",
+   "cat": "配饰首饰",
+   "term": "un foulard",
+   "ipa": "œ̃ fu.laʁ",
+   "zh": "丝巾；薄围巾",
+   "ex": "Elle porte un foulard rouge.",
+   "tr": "她系着红丝巾。",
+   "hint": "foulard 常较轻薄；末尾 d 不发音。",
+   "art": [
+    "clothes",
+    18
+   ]
+  },
+  {
+   "id": "w46",
+   "cat": "配饰首饰",
+   "term": "une cravate",
+   "ipa": "yn kʁa.vat",
+   "zh": "领带",
+   "ex": "Il porte une cravate.",
+   "tr": "他打着领带。",
+   "hint": "把 cravate 与 costume 一起记。",
+   "art": [
+    "clothes",
+    19
+   ]
+  },
+  {
+   "id": "w47",
+   "cat": "配饰首饰",
+   "term": "un collier",
+   "ipa": "œ̃ kɔ.lje",
+   "zh": "项链",
+   "ex": "Elle porte un collier.",
+   "tr": "她戴着项链。",
+   "hint": "围在脖子上；结尾 ier 读 /je/。",
+   "art": [
+    "clothes",
+    20
+   ]
+  },
+  {
+   "id": "w48",
+   "cat": "配饰首饰",
+   "term": "un bracelet",
+   "ipa": "œ̃ bʁas.lɛ",
+   "zh": "手链；手镯",
+   "ex": "J’ai un bracelet.",
+   "tr": "我有一条手链。",
+   "hint": "与 bras（手臂）联想；末尾 t 不发音。",
+   "art": [
+    "clothes",
+    21
+   ]
+  },
+  {
+   "id": "w49",
+   "cat": "配饰首饰",
+   "term": "une bague",
+   "ipa": "yn baɡ",
+   "zh": "戒指",
+   "ex": "Elle porte une bague.",
+   "tr": "她戴着戒指。",
+   "hint": "gue 保留 /ɡ/ 音；戴在手指上。",
+   "art": [
+    "clothes",
+    22
+   ]
+  },
+  {
+   "id": "w50",
+   "cat": "配饰首饰",
+   "term": "des boucles d’oreilles",
+   "ipa": "de bukl dɔ.ʁɛj",
+   "zh": "耳环",
+   "ex": "Elle porte des boucles d’oreilles.",
+   "tr": "她戴着耳环。",
+   "hint": "boucles = 环，oreilles = 耳朵。",
+   "art": [
+    "clothes",
+    23
+   ]
+  },
+  {
+   "id": "w51",
+   "cat": "配饰首饰",
+   "term": "une montre",
+   "ipa": "yn mɔ̃tʁ",
+   "zh": "手表",
+   "ex": "Il porte une montre.",
+   "tr": "他戴着手表。",
+   "hint": "手表是阴性；和 bracelet 比较位置与用途。",
+   "art": [
+    "clothes",
+    24
+   ]
+  },
+  {
+   "id": "w52",
+   "cat": "肤色",
+   "term": "blanc / blanche",
+   "ipa": "blɑ̃ / blɑ̃ʃ",
+   "zh": "白色的；白的",
+   "ex": "Elle a la peau blanche.",
+   "tr": "她的皮肤很白。",
+   "hint": "blanc → blanche，/k/ 不单独读；描述肤色可用 la peau。",
+   "art": [
+    "hair",
+    22
+   ]
+  },
+  {
+   "id": "w53",
+   "cat": "肤色",
+   "term": "noir / noire",
+   "ipa": "nwaʁ / nwaʁ",
+   "zh": "黑色的；黑的",
+   "ex": "Il a les cheveux noirs.",
+   "tr": "他的头发是黑色的。",
+   "hint": "阴阳性同音；原文 Il est noire 应为 Il est noir。",
+   "art": [
+    "hair",
+    24
+   ]
+  },
+  {
+   "id": "w54",
+   "cat": "肤色",
+   "term": "bronzé / bronzée",
+   "ipa": "bʁɔ̃.ze / bʁɔ̃.ze",
+   "zh": "晒黑的；古铜色的",
+   "ex": "Elle est bronzée.",
+   "tr": "她晒黑了。",
+   "hint": "联想阳光后的古铜色，不是天生肤色的唯一说法。",
+   "art": [
+    "hair",
+    23
+   ],
+   "caption": "示意晒后的暖棕肤色；不能仅凭图判断是否晒黑。"
+  },
+  {
+   "id": "w55",
+   "cat": "肤色",
+   "term": "pâle",
+   "ipa": "pɑl",
+   "zh": "苍白的",
+   "ex": "Il est pâle aujourd’hui.",
+   "tr": "他今天脸色苍白。",
+   "hint": "与 bronzé 对照；阴阳性同形。",
+   "art": [
+    "hair",
+    22
+   ],
+   "caption": "pâle 指苍白；也可能描述暂时的脸色变化。"
+  },
+  {
+   "id": "w56",
+   "cat": "肤色",
+   "term": "avoir la peau mate",
+   "ipa": "a.vwaʁ la po mat",
+   "zh": "肤色偏深；偏小麦色",
+   "ex": "Elle a la peau mate.",
+   "tr": "她的肤色偏小麦色。",
+   "hint": "peau 阴性 → mate；更强调天然较深肤色。",
+   "art": [
+    "hair",
+    23
+   ],
+   "caption": "mate 与 bronzé 并不等义，配图只呈现近似色调。"
+  },
+  {
+   "id": "w57",
+   "cat": "肤色",
+   "term": "avoir la peau foncée",
+   "ipa": "a.vwaʁ la po fɔ̃.se",
+   "zh": "肤色较深",
+   "ex": "Il a la peau foncée.",
+   "tr": "他的肤色较深。",
+   "hint": "foncé = 深色；peau 后加 e。",
+   "art": [
+    "hair",
+    24
+   ],
+   "caption": "肤色是连续变化的，插画只展示一个例子。"
+  },
+  {
+   "id": "w58",
+   "cat": "肤色",
+   "term": "avoir la peau claire",
+   "ipa": "a.vwaʁ la po klɛʁ",
+   "zh": "肤色较浅",
+   "ex": "Elle a la peau claire.",
+   "tr": "她的肤色较浅。",
+   "hint": "claire ↔ foncée；都与 peau 配合。",
+   "art": [
+    "hair",
+    22
+   ],
+   "caption": "claire 是相对的浅肤色，没有唯一色值。"
+  },
+  {
+   "id": "w59",
+   "cat": "发色眼睛",
+   "term": "blond / blonde",
+   "ipa": "blɔ̃ / blɔ̃d",
+   "zh": "金发的",
+   "ex": "Elle est blonde.",
+   "tr": "她是金发。",
+   "hint": "Il est blond；Elle est blonde。也可说 cheveux blonds。",
+   "art": [
+    "hair",
+    10
+   ]
+  },
+  {
+   "id": "w60",
+   "cat": "发色眼睛",
+   "term": "brun / brune",
+   "ipa": "bʁœ̃ / bʁyn",
+   "zh": "棕发的；深棕色的",
+   "ex": "Il est brun.",
+   "tr": "他是棕发。",
+   "hint": "brun 与 brune 元音也变化；别只记加 e。",
+   "art": [
+    "hair",
+    11
+   ]
+  },
+  {
+   "id": "w61",
+   "cat": "发色眼睛",
+   "term": "châtain",
+   "ipa": "ʃɑ.tɛ̃",
+   "zh": "栗色的",
+   "ex": "Il a les cheveux châtains.",
+   "tr": "他的头发是栗色的。",
+   "hint": "châtain 作发色形容词，复数 châtains 要加 s；女性也常用 châtain。",
+   "art": [
+    "hair",
+    12
+   ]
+  },
+  {
+   "id": "w62",
+   "cat": "发色眼睛",
+   "term": "roux / rousse",
+   "ipa": "ʁu / ʁus",
+   "zh": "红褐色头发的",
+   "ex": "Elle est rousse.",
+   "tr": "她是红发。",
+   "hint": "roux → rousse；不要用 rouge 直接替代红发形容词。",
+   "art": [
+    "hair",
+    13
+   ]
+  },
+  {
+   "id": "w63",
+   "cat": "发色眼睛",
+   "term": "avoir les cheveux noirs",
+   "ipa": "a.vwaʁ le ʃə.vø nwaʁ",
+   "zh": "有黑发",
+   "ex": "Elle a les cheveux noirs.",
+   "tr": "她有一头黑发。",
+   "hint": "cheveux 复数 → noirs。",
+   "art": [
+    "hair",
+    14
+   ]
+  },
+  {
+   "id": "w64",
+   "cat": "发色眼睛",
+   "term": "avoir les cheveux gris",
+   "ipa": "a.vwaʁ le ʃə.vø ɡʁi",
+   "zh": "有灰白头发",
+   "ex": "Il a les cheveux gris.",
+   "tr": "他有灰白头发。",
+   "hint": "gris 本身以 s 结尾，阳性复数不再加 s。",
+   "art": [
+    "hair",
+    15
+   ]
+  },
+  {
+   "id": "w65",
+   "cat": "发色眼睛",
+   "term": "chauve",
+   "ipa": "ʃov",
+   "zh": "秃头的",
+   "ex": "Il est chauve.",
+   "tr": "他是秃头。",
+   "hint": "用 être chauve，想象没有头发的头顶。",
+   "art": [
+    "hair",
+    9
+   ]
+  },
+  {
+   "id": "w66",
+   "cat": "发色眼睛",
+   "term": "avoir les yeux bleus",
+   "ipa": "a.vwaʁ le zjø blø",
+   "zh": "有蓝眼睛",
+   "ex": "Elle a les yeux bleus.",
+   "tr": "她的眼睛是蓝色的。",
+   "hint": "les yeux 连读 /le zjø/；bleus 末尾 s 不发音。",
+   "art": [
+    "hair",
+    16
+   ]
+  },
+  {
+   "id": "w67",
+   "cat": "发色眼睛",
+   "term": "avoir les yeux verts",
+   "ipa": "a.vwaʁ le zjø vɛʁ",
+   "zh": "有绿眼睛",
+   "ex": "Il a les yeux verts.",
+   "tr": "他的眼睛是绿色的。",
+   "hint": "yeux 阳性复数 → verts。",
+   "art": [
+    "hair",
+    17
+   ]
+  },
+  {
+   "id": "w68",
+   "cat": "发色眼睛",
+   "term": "avoir les yeux marron",
+   "ipa": "a.vwaʁ le zjø ma.ʁɔ̃",
+   "zh": "有棕色眼睛",
+   "ex": "Elle a les yeux marron.",
+   "tr": "她的眼睛是棕色的。",
+   "hint": "marron 作颜色不变，不能写 marrons。",
+   "art": [
+    "hair",
+    18
+   ]
+  },
+  {
+   "id": "w69",
+   "cat": "发色眼睛",
+   "term": "avoir les yeux noirs",
+   "ipa": "a.vwaʁ le zjø nwaʁ",
+   "zh": "有黑眼睛",
+   "ex": "Il a les yeux noirs.",
+   "tr": "他的眼睛是黑色的。",
+   "hint": "与 cheveux noirs 换一个身体部位练习。",
+   "art": [
+    "hair",
+    19
+   ]
+  },
+  {
+   "id": "w70",
+   "cat": "发色眼睛",
+   "term": "avoir les yeux gris",
+   "ipa": "a.vwaʁ le zjø ɡʁi",
+   "zh": "有灰色眼睛",
+   "ex": "Elle a les yeux gris.",
+   "tr": "她的眼睛是灰色的。",
+   "hint": "gris 既能描述头发，也能描述眼睛。",
+   "art": [
+    "hair",
+    20
+   ]
+  },
+  {
+   "id": "w71",
+   "cat": "颜色表达",
+   "term": "être vert de jalousie",
+   "ipa": "ɛtʁ vɛʁ də ʒa.lu.zi",
+   "zh": "嫉妒得眼红",
+   "ex": "Il est vert de jalousie.",
+   "tr": "他嫉妒得眼红。",
+   "hint": "法语嫉妒用绿色 vert，别按中文直译成红色。",
+   "art": [
+    "people",
+    15
+   ],
+   "caption": "绿色是嫉妒的象征，并非真的皮肤变绿。"
+  },
+  {
+   "id": "w72",
+   "cat": "颜色表达",
+   "term": "être rouge de colère",
+   "ipa": "ɛtʁ ʁuʒ də kɔ.lɛʁ",
+   "zh": "气得满脸通红",
+   "ex": "Il est rouge de colère.",
+   "tr": "他气得满脸通红。",
+   "hint": "de + 原因：colère = 愤怒。",
+   "art": [
+    "people",
+    16
+   ]
+  },
+  {
+   "id": "w73",
+   "cat": "颜色表达",
+   "term": "être rouge de honte",
+   "ipa": "ɛtʁ ʁuʒ də ɔ̃t",
+   "zh": "羞得满脸通红",
+   "ex": "Elle est rouge de honte.",
+   "tr": "她羞得满脸通红。",
+   "hint": "honte 是嘘音 h，不省音：de honte，不是 d’honte。",
+   "art": [
+    "people",
+    17
+   ]
+  },
+  {
+   "id": "w74",
+   "cat": "颜色表达",
+   "term": "être blanc comme un linge",
+   "ipa": "ɛtʁ blɑ̃ kɔm œ̃ lɛ̃ʒ",
+   "zh": "脸色苍白如纸",
+   "ex": "Il est blanc comme un linge.",
+   "tr": "他脸色苍白如纸。",
+   "hint": "linge 是布织物；比喻像白布一样苍白。",
+   "art": [
+    "people",
+    18
+   ]
+  },
+  {
+   "id": "w75",
+   "cat": "颜色搭配",
+   "term": "marron",
+   "ipa": "ma.ʁɔ̃",
+   "zh": "棕色的",
+   "ex": "Il porte des chaussures marron.",
+   "tr": "他穿着棕色鞋。",
+   "hint": "来自栗子名词，作颜色时不随复数变化。",
+   "art": [
+    "objects",
+    0
+   ]
+  },
+  {
+   "id": "w76",
+   "cat": "颜色搭配",
+   "term": "orange",
+   "ipa": "ɔ.ʁɑ̃ʒ",
+   "zh": "橙色的",
+   "ex": "J’ai deux sacs orange.",
+   "tr": "我有两个橙色包。",
+   "hint": "作颜色不变；不要用来概括人的族群肤色。",
+   "art": [
+    "objects",
+    1
+   ]
+  },
+  {
+   "id": "w77",
+   "cat": "颜色搭配",
+   "term": "noisette",
+   "ipa": "nwa.zɛt",
+   "zh": "榛子色的",
+   "ex": "Elle a les yeux noisette.",
+   "tr": "她有榛子色眼睛。",
+   "hint": "来自榛子，作颜色不加 s。",
+   "art": [
+    "objects",
+    2
+   ],
+   "caption": "榛子 → 榛子色；眼睛可呈绿棕相间。"
+  },
+  {
+   "id": "w78",
+   "cat": "颜色搭配",
+   "term": "olive",
+   "ipa": "ɔ.liv",
+   "zh": "橄榄绿的",
+   "ex": "Il porte des chaussures olive.",
+   "tr": "他穿着橄榄绿色鞋。",
+   "hint": "把橄榄果与颜色连在一起；颜色不变。",
+   "art": [
+    "objects",
+    3
+   ]
+  },
+  {
+   "id": "w79",
+   "cat": "颜色搭配",
+   "term": "turquoise",
+   "ipa": "tyʁ.kwaz",
+   "zh": "绿松石色的",
+   "ex": "Ces robes sont turquoise.",
+   "tr": "这些连衣裙是绿松石色的。",
+   "hint": "蓝与绿之间；作颜色不随性数变化。",
+   "art": [
+    "objects",
+    4
+   ]
+  },
+  {
+   "id": "w80",
+   "cat": "颜色搭配",
+   "term": "kaki",
+   "ipa": "ka.ki",
+   "zh": "卡其色的",
+   "ex": "Il porte un pantalon kaki.",
+   "tr": "他穿着卡其色裤子。",
+   "hint": "服装颜色是卡其色；不是柿子橙色，颜色词不变。",
+   "art": [
+    "objects",
+    5
+   ]
+  },
+  {
+   "id": "w81",
+   "cat": "颜色搭配",
+   "term": "chocolat",
+   "ipa": "ʃɔ.kɔ.la",
+   "zh": "巧克力色的",
+   "ex": "Elle a les cheveux chocolat.",
+   "tr": "她有巧克力色头发。",
+   "hint": "想象巧克力的深棕；末尾 t 不读，颜色不变。",
+   "art": [
+    "objects",
+    6
+   ]
+  },
+  {
+   "id": "w82",
+   "cat": "颜色搭配",
+   "term": "crème",
+   "ipa": "kʁɛm",
+   "zh": "奶油色的",
+   "ex": "Les murs sont crème.",
+   "tr": "墙是奶油色的。",
+   "hint": "奶油 → 奶油色；作颜色不变。",
+   "art": [
+    "objects",
+    7
+   ]
+  },
+  {
+   "id": "w83",
+   "cat": "颜色搭配",
+   "term": "bordeaux",
+   "ipa": "bɔʁ.do",
+   "zh": "酒红色的",
+   "ex": "Les rideaux sont bordeaux.",
+   "tr": "窗帘是酒红色的。",
+   "hint": "联想波尔多葡萄酒；作颜色小写、不变。",
+   "art": [
+    "objects",
+    8
+   ]
+  },
+  {
+   "id": "w84",
+   "cat": "补充词与句型",
+   "term": "porter",
+   "ipa": "pɔʁ.te",
+   "zh": "穿；戴",
+   "ex": "Je porte une montre.",
+   "tr": "我戴着手表。",
+   "hint": "je porte / il porte；衣服与配饰都能用。",
+   "art": [
+    "people",
+    20
+   ]
+  },
+  {
+   "id": "w85",
+   "cat": "补充词与句型",
+   "term": "être",
+   "ipa": "ɛtʁ",
+   "zh": "是；处于某种状态",
+   "ex": "Elle est grande.",
+   "tr": "她个子高。",
+   "hint": "je suis / tu es / il est / elle est；体型、年龄用它。",
+   "art": [
+    "people",
+    0
+   ],
+   "caption": "Il est grand. · 用 être 连接人物与特征。"
+  },
+  {
+   "id": "w86",
+   "cat": "补充词与句型",
+   "term": "avoir",
+   "ipa": "a.vwaʁ",
+   "zh": "有",
+   "ex": "Il a les yeux bleus.",
+   "tr": "他有蓝眼睛。",
+   "hint": "j’ai / tu as / il a / elle a；描述身体部位常用它。",
+   "art": [
+    "people",
+    21
+   ],
+   "caption": "Elle a un sac. · 她有一个包。"
+  },
+  {
+   "id": "w87",
+   "cat": "补充词与句型",
+   "term": "la taille",
+   "ipa": "la taj",
+   "zh": "身高；尺寸",
+   "ex": "Quelle est ta taille ?",
+   "tr": "你身高多少？",
+   "hint": "这里指身高，也可指衣服尺码。",
+   "art": [
+    "people",
+    2
+   ],
+   "caption": "观察头顶与同一高度门框的距离。"
+  },
+  {
+   "id": "w88",
+   "cat": "补充词与句型",
+   "term": "la corpulence",
+   "ipa": "la kɔʁ.py.lɑ̃s",
+   "zh": "体型",
+   "ex": "Il est de corpulence moyenne.",
+   "tr": "他体型适中。",
+   "hint": "与 taille 区分；词尾 -ence 是阴性。",
+   "art": [
+    "people",
+    8
+   ],
+   "caption": "corpulence 关注体型，而不是身高。"
+  },
+  {
+   "id": "w89",
+   "cat": "补充词与句型",
+   "term": "un muscle",
+   "ipa": "œ̃ myskl",
+   "zh": "肌肉",
+   "ex": "Ce muscle est fort.",
+   "tr": "这块肌肉很有力量。",
+   "hint": "muscle → musclé：名词变形容词。",
+   "art": [
+    "people",
+    22
+   ]
+  },
+  {
+   "id": "w90",
+   "cat": "补充词与句型",
+   "term": "l’âge",
+   "ipa": "lɑʒ",
+   "zh": "年龄",
+   "ex": "Quel âge as-tu ?",
+   "tr": "你多大？",
+   "hint": "âge 是阳性；询问年龄用 avoir。",
+   "art": [
+    "people",
+    23
+   ]
+  },
+  {
+   "id": "w91",
+   "cat": "补充词与句型",
+   "term": "l’apparence",
+   "ipa": "la.pa.ʁɑ̃s",
+   "zh": "外表",
+   "ex": "Son apparence change.",
+   "tr": "他的外表变了。",
+   "hint": "阴性名词；l’ 隐藏了冠词性别。",
+   "art": [
+    "objects",
+    22
+   ]
+  },
+  {
+   "id": "w92",
+   "cat": "补充词与句型",
+   "term": "les cheveux",
+   "ipa": "le ʃə.vø",
+   "zh": "头发",
+   "ex": "Ses cheveux sont longs.",
+   "tr": "他的头发很长。",
+   "hint": "单根头发 un cheveu；复数变 cheveux。",
+   "art": [
+    "hair",
+    0
+   ]
+  },
+  {
+   "id": "w93",
+   "cat": "补充词与句型",
+   "term": "la coiffure",
+   "ipa": "la kwa.fyʁ",
+   "zh": "发型",
+   "ex": "J’aime ta coiffure.",
+   "tr": "我喜欢你的发型。",
+   "hint": "oi 读 /wa/；coiffure 是整体造型。",
+   "art": [
+    "objects",
+    21
+   ]
+  },
+  {
+   "id": "w94",
+   "cat": "补充词与句型",
+   "term": "la peau",
+   "ipa": "la po",
+   "zh": "皮肤",
+   "ex": "J’ai la peau claire.",
+   "tr": "我的肤色较浅。",
+   "hint": "eau 读 /o/；peau 为阴性。",
+   "art": [
+    "hair",
+    23
+   ],
+   "caption": "la peau · 皮肤；不限定某一种肤色。"
+  },
+  {
+   "id": "w95",
+   "cat": "补充词与句型",
+   "term": "les yeux",
+   "ipa": "le zjø",
+   "zh": "眼睛",
+   "ex": "Elle a les yeux verts.",
+   "tr": "她有绿色眼睛。",
+   "hint": "单数 un œil /œj/，复数 les yeux，很不规则。",
+   "art": [
+    "hair",
+    16
+   ]
+  },
+  {
+   "id": "w96",
+   "cat": "补充词与句型",
+   "term": "les vêtements",
+   "ipa": "le vɛt.mɑ̃",
+   "zh": "衣服",
+   "ex": "Mes vêtements sont propres.",
+   "tr": "我的衣服很干净。",
+   "hint": "把 pull、robe、pantalon 放进这个大类。",
+   "art": [
+    "objects",
+    18
+   ]
+  },
+  {
+   "id": "w97",
+   "cat": "补充词与句型",
+   "term": "les accessoires",
+   "ipa": "le zak.sɛ.swaʁ",
+   "zh": "配饰",
+   "ex": "J’aime les accessoires.",
+   "tr": "我喜欢配饰。",
+   "hint": "les 与元音开头的 accessoires 连读 /z/。",
+   "art": [
+    "objects",
+    19
+   ]
+  },
+  {
+   "id": "w98",
+   "cat": "补充词与句型",
+   "term": "les bijoux",
+   "ipa": "le bi.ʒu",
+   "zh": "首饰",
+   "ex": "Elle porte des bijoux.",
+   "tr": "她戴着首饰。",
+   "hint": "un bijou → des bijoux，复数以 x 结尾。",
+   "art": [
+    "objects",
+    20
+   ]
+  },
+  {
+   "id": "w99",
+   "cat": "补充词与句型",
+   "term": "un paysage",
+   "ipa": "œ̃ pe.i.zaʒ",
+   "zh": "风景",
+   "ex": "C’est un beau paysage.",
+   "tr": "这是一处美丽的风景。",
+   "hint": "与 beau 一起背：un beau paysage。",
+   "art": [
+    "objects",
+    10
+   ]
+  },
+  {
+   "id": "w100",
+   "cat": "补充词与句型",
+   "term": "une maison",
+   "ipa": "yn mɛ.zɔ̃",
+   "zh": "房子",
+   "ex": "C’est une jolie petite maison.",
+   "tr": "这是一栋漂亮的小房子。",
+   "hint": "jolie、petite 在这里放在名词前。",
+   "art": [
+    "objects",
+    11
+   ]
+  },
+  {
+   "id": "w101",
+   "cat": "补充词与句型",
+   "term": "une ville",
+   "ipa": "yn vil",
+   "zh": "城市",
+   "ex": "Paris est une belle ville.",
+   "tr": "巴黎是一座美丽的城市。",
+   "hint": "ville 的 ll 读 /l/。",
+   "art": [
+    "objects",
+    12
+   ]
+  },
+  {
+   "id": "w102",
+   "cat": "补充词与句型",
+   "term": "un sac",
+   "ipa": "œ̃ sak",
+   "zh": "包",
+   "ex": "C’est un joli sac.",
+   "tr": "这是一个漂亮的包。",
+   "hint": "sac 阳性，配 joli；末尾 c 发音。",
+   "art": [
+    "objects",
+    13
+   ]
+  },
+  {
+   "id": "w103",
+   "cat": "补充词与句型",
+   "term": "un bouquet",
+   "ipa": "œ̃ bu.kɛ",
+   "zh": "一束花",
+   "ex": "C’est un joli bouquet.",
+   "tr": "这是一束漂亮的花。",
+   "hint": "一束花也可说 un bouquet de fleurs。",
+   "art": [
+    "objects",
+    14
+   ]
+  },
+  {
+   "id": "w104",
+   "cat": "补充词与句型",
+   "term": "jaloux / jalouse",
+   "ipa": "ʒa.lu / ʒa.luz",
+   "zh": "嫉妒的",
+   "ex": "Il est très jaloux.",
+   "tr": "他很嫉妒。",
+   "hint": "jalousie 是名词；jaloux 是形容词。",
+   "art": [
+    "people",
+    15
+   ]
+  },
+  {
+   "id": "w105",
+   "cat": "补充词与句型",
+   "term": "la jalousie",
+   "ipa": "la ʒa.lu.zi",
+   "zh": "嫉妒",
+   "ex": "La jalousie est un problème.",
+   "tr": "嫉妒是个问题。",
+   "hint": "与 vert de jalousie 绑定记忆。",
+   "art": [
+    "people",
+    15
+   ]
+  },
+  {
+   "id": "w106",
+   "cat": "补充词与句型",
+   "term": "être en colère",
+   "ipa": "ɛtʁ ɑ̃ kɔ.lɛʁ",
+   "zh": "生气",
+   "ex": "Elle est en colère.",
+   "tr": "她生气了。",
+   "hint": "生气用 être en colère，不说 avoir colère。",
+   "art": [
+    "people",
+    16
+   ]
+  },
+  {
+   "id": "w107",
+   "cat": "补充词与句型",
+   "term": "avoir honte",
+   "ipa": "a.vwaʁ ɔ̃t",
+   "zh": "感到羞耻；羞愧",
+   "ex": "Il a honte.",
+   "tr": "他感到羞愧。",
+   "hint": "honte 配 avoir；h 为嘘音 h。",
+   "art": [
+    "people",
+    17
+   ]
+  },
+  {
+   "id": "w108",
+   "cat": "补充词与句型",
+   "term": "le linge",
+   "ipa": "lə lɛ̃ʒ",
+   "zh": "衣物；布织品",
+   "ex": "Le linge est blanc.",
+   "tr": "这些布织品是白色的。",
+   "hint": "可指待洗衣物、床单等；在比喻里联想白布。",
+   "art": [
+    "objects",
+    15
+   ]
+  },
+  {
+   "id": "w109",
+   "cat": "补充词与句型",
+   "term": "la peur",
+   "ipa": "la pœʁ",
+   "zh": "害怕；恐惧",
+   "ex": "J’ai peur.",
+   "tr": "我害怕。",
+   "hint": "常用 avoir peur，与 avoir honte 一起记。",
+   "art": [
+    "people",
+    18
+   ]
+  },
+  {
+   "id": "w110",
+   "cat": "补充词与句型",
+   "term": "un malaise",
+   "ipa": "œ̃ ma.lɛz",
+   "zh": "不适；晕厥感",
+   "ex": "Il a un malaise.",
+   "tr": "他感到一阵不适。",
+   "hint": "mal 提示不舒服；malaise 为阳性。",
+   "art": [
+    "people",
+    19
+   ]
+  },
+  {
+   "id": "w111",
+   "cat": "补充词与句型",
+   "term": "un mur",
+   "ipa": "œ̃ myʁ",
+   "zh": "墙",
+   "ex": "Le mur est blanc.",
+   "tr": "墙是白色的。",
+   "hint": "复数 des murs；可和 crème 搭配。",
+   "art": [
+    "objects",
+    16
+   ]
+  },
+  {
+   "id": "w112",
+   "cat": "补充词与句型",
+   "term": "un rideau",
+   "ipa": "œ̃ ʁi.do",
+   "zh": "窗帘",
+   "ex": "Le rideau est rouge.",
+   "tr": "窗帘是红色的。",
+   "hint": "eau → eaux：des rideaux。",
+   "art": [
+    "objects",
+    17
+   ]
+  },
+  {
+   "id": "w113",
+   "cat": "补充词与句型",
+   "term": "une couleur",
+   "ipa": "yn ku.lœʁ",
+   "zh": "颜色",
+   "ex": "Quelle couleur aimes-tu ?",
+   "tr": "你喜欢什么颜色？",
+   "hint": "couleur 是阴性，不要被 -eur 误导。",
+   "art": [
+    "objects",
+    9
+   ]
+  },
+  {
+   "id": "w114",
+   "cat": "补充词与句型",
+   "term": "jaune",
+   "ipa": "ʒon",
+   "zh": "黄色的",
+   "ex": "Mon sac est jaune.",
+   "tr": "我的包是黄色的。",
+   "hint": "用于物品颜色；不把它当作人的族群标签。",
+   "color": "#edca3c",
+   "colorLabel": "jaune"
+  },
+  {
+   "id": "w115",
+   "cat": "补充词与句型",
+   "term": "rouge",
+   "ipa": "ʁuʒ",
+   "zh": "红色的",
+   "ex": "Sa robe est rouge.",
+   "tr": "她的连衣裙是红色的。",
+   "hint": "也可描述暂时脸红：rouge de honte。",
+   "color": "#c94e48",
+   "colorLabel": "rouge"
+  },
+  {
+   "id": "w116",
+   "cat": "补充词与句型",
+   "term": "bleu / bleue",
+   "ipa": "blø / blø",
+   "zh": "蓝色的",
+   "ex": "La veste est bleue.",
+   "tr": "夹克是蓝色的。",
+   "hint": "普通颜色形容词，按性数配合：bleu, bleue, bleus, bleues。",
+   "color": "#477eb4",
+   "colorLabel": "bleu / bleue"
+  },
+  {
+   "id": "w117",
+   "cat": "补充词与句型",
+   "term": "vert / verte",
+   "ipa": "vɛʁ / vɛʁt",
+   "zh": "绿色的",
+   "ex": "La jupe est verte.",
+   "tr": "半身裙是绿色的。",
+   "hint": "阴性 verte 的 t 发音。",
+   "color": "#65855c",
+   "colorLabel": "vert / verte"
+  },
+  {
+   "id": "w118",
+   "cat": "补充词与句型",
+   "term": "gris / grise",
+   "ipa": "ɡʁi / ɡʁiz",
+   "zh": "灰色的",
+   "ex": "La veste est grise.",
+   "tr": "夹克是灰色的。",
+   "hint": "阴性 grise 的 s 读 /z/。",
+   "color": "#91959c",
+   "colorLabel": "gris / grise"
+  },
+  {
+   "id": "w119",
+   "cat": "补充词与句型",
+   "term": "la colère",
+   "ipa": "la kɔ.lɛʁ",
+   "zh": "愤怒",
+   "ex": "Sa colère passe.",
+   "tr": "他的怒气消了。",
+   "hint": "名词；搭配 en colère / rouge de colère。",
+   "art": [
+    "people",
+    16
+   ]
+  },
+  {
+   "id": "w120",
+   "cat": "补充词与句型",
+   "term": "la honte",
+   "ipa": "la ɔ̃t",
+   "zh": "羞耻；羞愧",
+   "ex": "Il est rouge de honte.",
+   "tr": "他羞得脸通红。",
+   "hint": "保留 la，不说 l’honte。",
+   "art": [
+    "people",
+    17
+   ]
+  },
+  {
+   "id": "w121",
+   "cat": "补充词与句型",
+   "term": "à cause de",
+   "ipa": "a koz də",
+   "zh": "因为；由于",
+   "ex": "Il est pâle à cause de la peur.",
+   "tr": "他因为害怕而脸色苍白。",
+   "hint": "后面接原因名词；常用于不好的结果。",
+   "art": [
+    "people",
+    18
+   ],
+   "caption": "la peur → le visage pâle · 害怕导致脸色苍白。"
+  },
+  {
+   "id": "w122",
+   "cat": "补充词与句型",
+   "term": "très",
+   "ipa": "tʁɛ",
+   "zh": "非常",
+   "ex": "Elle est très jeune.",
+   "tr": "她非常年轻。",
+   "hint": "放在形容词或副词前，加强程度。",
+   "art": [
+    "people",
+    16
+   ],
+   "caption": "en colère → très en colère · 生气 → 非常生气。"
+  },
+  {
+   "id": "w123",
+   "cat": "补充词与句型",
+   "term": "souvent",
+   "ipa": "su.vɑ̃",
+   "zh": "经常",
+   "ex": "Il porte souvent un pull.",
+   "tr": "他经常穿毛衣。",
+   "hint": "频率词，常放在变位动词之后。",
+   "art": [
+    "objects",
+    23
+   ],
+   "caption": "重复出现的勾，提示“经常”。"
+  }
+ ]
+}

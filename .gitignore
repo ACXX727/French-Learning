@@ -1,0 +1,3 @@
+# 课本原文只留在本机，不公开
+materials/*
+!materials/README.md

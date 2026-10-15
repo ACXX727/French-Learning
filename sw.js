@@ -1,23 +1,12 @@
-// 离线缓存：首次打开后，断网也能用。更新文件时把版本号加一。
-const CACHE = 'lexique-l6-v2';
-const FILES = [
-  './',
-  'index.html',
-  'manifest.webmanifest',
-  'icons/icon-192.png',
-  'icons/icon-512.png',
-  'icons/apple-touch-icon.png',
-  'assets/atlas-clothes.webp',
-  'assets/atlas-hair.webp',
-  'assets/atlas-people.webp',
-  'assets/atlas-objects.webp',
-  'assets/image5.webp',
-  'assets/image6.webp',
-  'assets/image7.webp'
-];
+// 离线缓存：首次打开后，断网也能用。
+// 页面和课程 JSON 优先联网取最新版（断网时用缓存），所以新增课程不需要改这里。
+// 图片等静态资源优先用缓存；替换了同名图片时，把 CACHE 版本号加一。
+const CACHE = 'lexique-v3';
+const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'lessons/index.json',
+  'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
-  e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).then(() => self.skipWaiting()));
+  e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
 });
 
 self.addEventListener('activate', e => {
@@ -28,16 +17,23 @@ self.addEventListener('activate', e => {
   );
 });
 
-// 页面优先联网取最新版，断网时用缓存；图片等静态资源优先用缓存。
+function networkFirst(req, key) {
+  return fetch(req)
+    .then(r => { if (r.ok) { const copy = r.clone(); caches.open(CACHE).then(c => c.put(key || req, copy)); } return r; })
+    .catch(() => caches.match(key || req, { ignoreSearch: true }));
+}
+
+function cacheFirst(req) {
+  return caches.match(req).then(hit => hit || fetch(req).then(r => {
+    if (r.ok) { const copy = r.clone(); caches.open(CACHE).then(c => c.put(req, copy)); }
+    return r;
+  }));
+}
+
 self.addEventListener('fetch', e => {
-  if (e.request.method !== 'GET' || new URL(e.request.url).origin !== location.origin) return;
-  if (e.request.mode === 'navigate') {
-    e.respondWith(
-      fetch(e.request)
-        .then(r => { const copy = r.clone(); caches.open(CACHE).then(c => c.put('index.html', copy)); return r; })
-        .catch(() => caches.match('index.html'))
-    );
-    return;
-  }
-  e.respondWith(caches.match(e.request).then(r => r || fetch(e.request)));
+  const url = new URL(e.request.url);
+  if (e.request.method !== 'GET' || url.origin !== location.origin) return;
+  if (e.request.mode === 'navigate') return e.respondWith(networkFirst(e.request, 'index.html'));
+  if (url.pathname.endsWith('.json') || url.pathname.endsWith('.webmanifest')) return e.respondWith(networkFirst(e.request));
+  e.respondWith(cacheFirst(e.request));
 });
