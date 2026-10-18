@@ -17,7 +17,8 @@ lessons/L6.js         一课的全部内容：词卡、练习、说明
 lessons/L6/           这一课的图片（WebP）
 materials/            新课原始材料收件箱（只留本机，不上传）
 tools/check_lesson.py 校验课程数据
-.claude/skills/add-lesson  让 Claude 按固定流程加新课
+.claude/skills/add-lesson  加新课的固定流程（Claude Code 和 Codex 通用）
+AGENTS.md             给 Codex / Claude Code 的项目规则和同步方法
 ```
 
 ## 加一课
