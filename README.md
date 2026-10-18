@@ -11,14 +11,15 @@
 ## 目录
 
 ```
-index.html            页面（加新课不用改）
+index.html            页面结构（加新课不用改）
+app.css / app.js      样式和交互逻辑
 lessons/index.js      课程列表 + 默认打开的课
 lessons/L6.js         一课的全部内容：词卡、练习、说明
 lessons/L6/           这一课的图片（WebP）
 materials/            新课原始材料收件箱（只留本机，不上传）
 tools/check_lesson.py 校验课程数据
 .claude/skills/add-lesson  加新课的固定流程（Claude Code 和 Codex 通用）
-AGENTS.md             给 Codex / Claude Code 的项目规则和同步方法
+AGENTS.md             项目规则和同步方法（Codex 和 Claude Code 共用，CLAUDE.md 引用它）
 ```
 
 ## 加一课

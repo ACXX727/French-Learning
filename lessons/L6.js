@@ -19,273 +19,232 @@ lexiqueData({
     "img": "lessons/L6/practice/taille.webp",
     "title": "比身高",
     "ask": "这三个人谁高、谁矮、谁中等身高？",
-    "points": [
-     "从左到右，每个人写一句",
-     "用 être + 形容词；中间是女士，形容词要用阴性"
-    ],
+    "points": ["从左到右，每个人写一句", "用 être + 形容词；中间是女士，形容词要用阴性"],
     "frame": "L'homme à gauche est…\nLa femme au milieu est…\nL'homme à droite est…",
-    "words": [
-     "w1",
-     "w2",
-     "w3"
-    ],
+    "words": ["w1", "w2", "w3"],
     "fr": "L'homme à gauche est grand. La femme au milieu est petite. L'homme à droite est de taille moyenne.",
-    "zh": "左边的男人很高。中间的女人个子矮。右边的男人中等身高。"
+    "zh": "左边的男人很高。中间的女人个子矮。右边的男人中等身高。",
+    "tiles": [
+     ["people", 0],
+     ["people", 1],
+     ["people", 2]
+    ],
+    "cols": 3,
+    "numbered": false
    },
    {
     "id": "corpulence",
     "img": "lessons/L6/practice/corpulence.webp",
     "title": "说体型",
     "ask": "这三个男人的体型有什么不同？",
-    "points": [
-     "按图上的编号 1–3，每个人写一句",
-     "用 être + 形容词，可以给 2 号多加一个形容词"
-    ],
+    "points": ["按图上的编号 1–3，每个人写一句", "用 être + 形容词，可以给 2 号多加一个形容词"],
     "frame": "Le premier homme est…\nLe deuxième est…\nLe troisième est…",
-    "words": [
-     "w5",
-     "w8",
-     "w9",
-     "w17"
-    ],
+    "words": ["w5", "w8", "w9", "w17"],
     "fr": "Le premier homme est maigre. Le deuxième est musclé et sportif. Le troisième est de corpulence moyenne.",
-    "zh": "第一个男人很瘦。第二个肌肉发达，很爱运动。第三个是中等体型。"
+    "zh": "第一个男人很瘦。第二个肌肉发达，很爱运动。第三个是中等体型。",
+    "tiles": [
+     ["people", 4],
+     ["people", 7],
+     ["people", 8]
+    ],
+    "cols": 3,
+    "numbered": true
    },
    {
     "id": "age",
     "img": "lessons/L6/practice/age.webp",
     "title": "谁年轻，谁年长",
     "ask": "两个男人谁年轻、谁年长？他们的头发有什么不同？",
-    "points": [
-     "先用 être 说年龄",
-     "再用 avoir 说头发的颜色、长短，以及有没有胡子"
-    ],
+    "points": ["先用 être 说年龄", "再用 avoir 说头发的颜色、长短，以及有没有胡子"],
     "frame": "L'homme à gauche est… Il a les cheveux…\nL'homme à droite est… Il a les cheveux… et une…",
-    "words": [
-     "w10",
-     "w11",
-     "w60",
-     "w19",
-     "w64",
-     "w25",
-     "w118"
-    ],
+    "words": ["w10", "w11", "w60", "w19", "w64", "w25", "w118"],
     "fr": "L'homme à gauche est jeune. Il a les cheveux bruns et courts. L'homme à droite est âgé. Il a les cheveux gris et une barbe grise.",
-    "zh": "左边的男人很年轻，他是棕色短发。右边的男人年纪大了，他头发灰白，留着灰白的胡子。"
+    "zh": "左边的男人很年轻，他是棕色短发。右边的男人年纪大了，他头发灰白，留着灰白的胡子。",
+    "tiles": [
+     ["people", 24]
+    ],
+    "cols": 1,
+    "numbered": false
    },
    {
     "id": "coiffure",
     "img": "lessons/L6/practice/coiffure.webp",
     "title": "四种发型",
     "ask": "四个人分别是什么发型？",
-    "points": [
-     "按编号 1–4，每个人写一句",
-     "女士用 avoir les cheveux + 形容词；4 号是光头，用 être chauve"
-    ],
+    "points": ["按编号 1–4，每个人写一句", "女士用 avoir les cheveux + 形容词；4 号是光头，用 être chauve"],
     "frame": "La première femme a les cheveux…\nLa deuxième a les cheveux…\nLa troisième a les cheveux…\nL'homme est…",
-    "words": [
-     "w19",
-     "w18",
-     "w23",
-     "w24",
-     "w65"
-    ],
+    "words": ["w19", "w18", "w23", "w24", "w65"],
     "fr": "La première femme a les cheveux courts. La deuxième a les cheveux longs et ondulés. La troisième a les cheveux bouclés. L'homme est chauve.",
-    "zh": "第一位女士留短发。第二位是长长的波浪卷发。第三位是卷发。那位男士是光头。"
+    "zh": "第一位女士留短发。第二位是长长的波浪卷发。第三位是卷发。那位男士是光头。",
+    "tiles": [
+     ["hair", 1],
+     ["hair", 5],
+     ["hair", 6],
+     ["hair", 9]
+    ],
+    "cols": 2,
+    "numbered": true
    },
    {
     "id": "barbe",
     "img": "lessons/L6/practice/barbe.webp",
     "title": "胡子",
     "ask": "两个男人的胡子有什么不同？",
-    "points": [
-     "左边：满脸的络腮胡 une barbe；右边：只在上唇的小胡子 une moustache",
-     "用 avoir 说：Il a une…"
-    ],
+    "points": ["左边：满脸的络腮胡 une barbe；右边：只在上唇的小胡子 une moustache", "用 avoir 说：Il a une…"],
     "frame": "L'homme à gauche a une…\nL'homme à droite a une…\nIls ont les cheveux…",
-    "words": [
-     "w25",
-     "w26",
-     "w60"
-    ],
+    "words": ["w25", "w26", "w60"],
     "fr": "L'homme à gauche a une barbe. L'homme à droite a une moustache. Ils ont les cheveux bruns.",
-    "zh": "左边的男人留着络腮胡。右边的男人留着小胡子。他们都是棕色头发。"
+    "zh": "左边的男人留着络腮胡。右边的男人留着小胡子。他们都是棕色头发。",
+    "tiles": [
+     ["hair", 7],
+     ["hair", 8]
+    ],
+    "cols": 2,
+    "numbered": false
    },
    {
     "id": "couleur-cheveux",
     "img": "lessons/L6/practice/couleur-cheveux.webp",
     "title": "发色",
     "ask": "四位女士的头发分别是什么颜色？",
-    "points": [
-     "按编号 1–4，每个人写一句",
-     "前三位用 être + 阴性形容词（blonde / brune / rousse），4 号用 avoir les cheveux noirs"
-    ],
+    "points": ["按编号 1–4，每个人写一句", "前三位用 être + 阴性形容词（blonde / brune / rousse），4 号用 avoir les cheveux noirs"],
     "frame": "La première femme est…\nLa deuxième est…\nLa troisième est…\nLa quatrième a les cheveux…",
-    "words": [
-     "w59",
-     "w60",
-     "w62",
-     "w63"
-    ],
+    "words": ["w59", "w60", "w62", "w63"],
     "fr": "La première femme est blonde. La deuxième est brune. La troisième est rousse. La quatrième a les cheveux noirs.",
-    "zh": "第一位是金发。第二位是棕发。第三位是红发。第四位是黑发。"
+    "zh": "第一位是金发。第二位是棕发。第三位是红发。第四位是黑发。",
+    "tiles": [
+     ["hair", 10],
+     ["hair", 11],
+     ["hair", 13],
+     ["hair", 14]
+    ],
+    "cols": 2,
+    "numbered": true
    },
    {
     "id": "yeux",
     "img": "lessons/L6/practice/yeux.webp",
     "title": "眼睛的颜色",
     "ask": "四双眼睛分别是什么颜色？",
-    "points": [
-     "按编号 1–4，每双眼睛写一句",
-     "yeux 是复数，颜色要加 s；但 marron 不变，不加 s"
-    ],
+    "points": ["按编号 1–4，每双眼睛写一句", "yeux 是复数，颜色要加 s；但 marron 不变，不加 s"],
     "frame": "La personne 1 a les yeux…\nLa personne 2 a les yeux…\nLa personne 3 a les yeux…\nLa personne 4 a les yeux…",
-    "words": [
-     "w66",
-     "w67",
-     "w68",
-     "w70"
-    ],
+    "words": ["w66", "w67", "w68", "w70"],
     "fr": "La personne 1 a les yeux bleus. La personne 2 a les yeux verts. La personne 3 a les yeux marron. La personne 4 a les yeux gris.",
-    "zh": "1 号是蓝眼睛。2 号是绿眼睛。3 号是棕色眼睛。4 号是灰眼睛。"
+    "zh": "1 号是蓝眼睛。2 号是绿眼睛。3 号是棕色眼睛。4 号是灰眼睛。",
+    "tiles": [
+     ["hair", 16],
+     ["hair", 17],
+     ["hair", 18],
+     ["hair", 20]
+    ],
+    "cols": 2,
+    "numbered": true
    },
    {
     "id": "tenue-casual",
     "img": "lessons/L6/practice/tenue-casual.webp",
     "title": "日常穿搭",
     "ask": "他穿了什么？",
-    "points": [
-     "用一句 Il porte… 依次说上衣、裤子、鞋子",
-     "每件衣服后面加颜色；marron 和 crème 不变"
-    ],
+    "points": ["用一句 Il porte… 依次说上衣、裤子、鞋子", "每件衣服后面加颜色；marron 和 crème 不变"],
     "frame": "Il porte un pull…, un jean… et des chaussures…",
-    "words": [
-     "w84",
-     "w27",
-     "w35",
-     "w37",
-     "w82",
-     "w116",
-     "w75"
-    ],
+    "words": ["w84", "w27", "w35", "w37", "w82", "w116", "w75"],
     "fr": "Il porte un pull crème, un jean bleu et des chaussures marron.",
-    "zh": "他穿着奶油色的毛衣、蓝色牛仔裤和棕色的鞋。"
+    "zh": "他穿着奶油色的毛衣、蓝色牛仔裤和棕色的鞋。",
+    "tiles": [
+     ["people", 8]
+    ],
+    "cols": 1,
+    "numbered": false
    },
    {
     "id": "tenue-soiree",
     "img": "lessons/L6/practice/tenue-soiree.webp",
     "title": "晚礼服",
     "ask": "她要去参加晚宴。她看起来怎么样？穿了什么？",
-    "points": [
-     "先用 Elle est… 说她给人的感觉",
-     "再用 Elle porte… 说裙子的长短和颜色（酒红色 bordeaux 不变）"
-    ],
+    "points": ["先用 Elle est… 说她给人的感觉", "再用 Elle porte… 说裙子的长短和颜色（酒红色 bordeaux 不变）"],
     "frame": "Elle est…\nElle porte une longue robe…",
-    "words": [
-     "w16",
-     "w84",
-     "w32",
-     "w83"
-    ],
+    "words": ["w16", "w84", "w32", "w83"],
     "fr": "Elle est élégante. Elle porte une longue robe bordeaux.",
-    "zh": "她很优雅。她穿着一条酒红色的长裙。"
+    "zh": "她很优雅。她穿着一条酒红色的长裙。",
+    "tiles": [
+     ["people", 13]
+    ],
+    "cols": 1,
+    "numbered": false
    },
    {
     "id": "sport",
     "img": "lessons/L6/practice/sport.webp",
     "title": "运动风",
     "ask": "她是什么样的人？穿了什么？",
-    "points": [
-     "先用 Elle est… 说她的体型和爱好（两个形容词）",
-     "再用 Elle porte… 说短裤和运动鞋，加上颜色"
-    ],
+    "points": ["先用 Elle est… 说她的体型和爱好（两个形容词）", "再用 Elle porte… 说短裤和运动鞋，加上颜色"],
     "frame": "Elle est… et…\nElle porte un short… et des baskets…",
-    "words": [
-     "w17",
-     "w4",
-     "w36",
-     "w38",
-     "w53",
-     "w52"
-    ],
+    "words": ["w17", "w4", "w36", "w38", "w53", "w52"],
     "fr": "Elle est sportive et mince. Elle porte un short noir et des baskets blanches.",
-    "zh": "她爱运动，身材苗条。她穿着黑色短裤和白色运动鞋。"
+    "zh": "她爱运动，身材苗条。她穿着黑色短裤和白色运动鞋。",
+    "tiles": [
+     ["people", 14]
+    ],
+    "cols": 1,
+    "numbered": false
    },
    {
     "id": "accessoires",
     "img": "lessons/L6/practice/accessoires.webp",
     "title": "度假配饰",
     "ask": "她去海边度假，会戴哪些配饰？",
-    "points": [
-     "用 Elle porte… 说出图中三样可以戴的配饰",
-     "包是拿着的，不用 porter：Elle a aussi un sac…"
-    ],
+    "points": ["用 Elle porte… 说出图中三样可以戴的配饰", "包是拿着的，不用 porter：Elle a aussi un sac…"],
     "frame": "Elle porte un…, des… et un…\nElle a aussi un sac…",
-    "words": [
-     "w42",
-     "w41",
-     "w45",
-     "w102",
-     "w75"
-    ],
+    "words": ["w42", "w41", "w45", "w102", "w75"],
     "fr": "Elle porte un chapeau, des lunettes de soleil et un foulard. Elle a aussi un sac marron.",
-    "zh": "她戴着帽子、太阳镜和丝巾。她还带着一个棕色的包。"
+    "zh": "她戴着帽子、太阳镜和丝巾。她还带着一个棕色的包。",
+    "tiles": [
+     ["objects", 19]
+    ],
+    "cols": 1,
+    "numbered": false
    },
    {
     "id": "bijoux",
     "img": "lessons/L6/practice/bijoux.webp",
     "title": "首饰盒",
     "ask": "首饰盒里有哪些首饰？",
-    "points": [
-     "用一句 Dans la boîte, il y a… 列出四样首饰",
-     "注意冠词：un collier、une bague、des boucles d’oreilles"
-    ],
+    "points": ["用一句 Dans la boîte, il y a… 列出四样首饰", "注意冠词：un collier、une bague、des boucles d’oreilles"],
     "frame": "Dans la boîte, il y a un…, un…, une… et des…",
-    "words": [
-     "w47",
-     "w48",
-     "w49",
-     "w50"
-    ],
+    "words": ["w47", "w48", "w49", "w50"],
     "fr": "Dans la boîte, il y a un collier, un bracelet, une bague et des boucles d'oreilles.",
-    "zh": "首饰盒里有一条项链、一只手链、一枚戒指和一对耳环。"
+    "zh": "首饰盒里有一条项链、一只手链、一枚戒指和一对耳环。",
+    "tiles": [
+     ["objects", 20]
+    ],
+    "cols": 1,
+    "numbered": false
    },
    {
     "id": "emotions",
     "img": "lessons/L6/practice/emotions.webp",
     "title": "脸色与情绪",
     "ask": "两个人分别是什么情绪？脸色怎么样？",
-    "points": [
-     "左边的男人：用颜色表达说“气得满脸通红”",
-     "右边的女人：先说她很害怕，再说她脸色苍白如纸（blanc 要变成阴性 blanche）"
-    ],
+    "points": ["左边的男人：用颜色表达说“气得满脸通红”", "右边的女人：先说她很害怕，再说她脸色苍白如纸（blanc 要变成阴性 blanche）"],
     "frame": "L'homme est rouge de…\nLa femme a peur : elle est blanche comme…",
-    "words": [
-     "w72",
-     "w74",
-     "w109"
-    ],
+    "words": ["w72", "w74", "w109"],
     "fr": "L'homme est rouge de colère. La femme a peur : elle est blanche comme un linge.",
-    "zh": "男人气得满脸通红。女人很害怕：她脸色苍白如纸。"
+    "zh": "男人气得满脸通红。女人很害怕：她脸色苍白如纸。",
+    "tiles": [
+     ["people", 16],
+     ["people", 18]
+    ],
+    "cols": 2,
+    "numbered": false
    },
    {
     "id": "photo-1",
     "img": "lessons/L6/image5.webp",
     "title": "真实照片 · 红毯礼服",
     "ask": "这位女士是什么发型？穿戴了什么？",
-    "points": [
-     "先用 avoir 说发型",
-     "再用 porter 说裙子（长短、颜色）和项链",
-     "最后用 être 说她给人的感觉"
-    ],
+    "points": ["先用 avoir 说发型", "再用 porter 说裙子（长短、颜色）和项链", "最后用 être 说她给人的感觉"],
     "frame": "Elle a les cheveux…\nElle porte une longue robe… et un…\nElle est…",
-    "words": [
-     "w19",
-     "w32",
-     "w76",
-     "w47",
-     "w16"
-    ],
+    "words": ["w19", "w32", "w76", "w47", "w16"],
     "fr": "Elle a les cheveux courts. Elle porte une longue robe orange et un collier. Elle est élégante.",
     "zh": "她留着短发。她穿着一条橙色长裙，戴着项链。她很优雅。"
    },
@@ -294,20 +253,9 @@ lexiqueData({
     "img": "lessons/L6/image6.webp",
     "title": "真实照片 · 休闲装",
     "ask": "描述她的头发和穿着。",
-    "points": [
-     "头发：长短、卷不卷、颜色（红发是 roux）",
-     "衣服：牛仔裤和运动鞋，加上颜色"
-    ],
+    "points": ["头发：长短、卷不卷、颜色（红发是 roux）", "衣服：牛仔裤和运动鞋，加上颜色"],
     "frame": "Elle a les cheveux…, … et…\nElle porte un jean… et des baskets…",
-    "words": [
-     "w18",
-     "w23",
-     "w62",
-     "w35",
-     "w38",
-     "w116",
-     "w52"
-    ],
+    "words": ["w18", "w23", "w62", "w35", "w38", "w116", "w52"],
     "fr": "Elle a les cheveux longs, ondulés et roux. Elle porte un jean bleu et des baskets blanches.",
     "zh": "她留着长长的红色波浪卷发。她穿着蓝色牛仔裤和白色运动鞋。"
    },
@@ -316,20 +264,9 @@ lexiqueData({
     "img": "lessons/L6/image7.webp",
     "title": "真实照片 · 男士穿搭",
     "ask": "他戴了什么？穿了什么？",
-    "points": [
-     "先用 Il porte… 说两样配饰（眼镜、手表）",
-     "再用 Il porte… 说毛衣、牛仔裤和运动鞋，加上颜色"
-    ],
+    "points": ["先用 Il porte… 说两样配饰（眼镜、手表）", "再用 Il porte… 说毛衣、牛仔裤和运动鞋，加上颜色"],
     "frame": "Il porte des… et une…\nIl porte un pull…, un jean… et des baskets…",
-    "words": [
-     "w40",
-     "w51",
-     "w27",
-     "w35",
-     "w38",
-     "w116",
-     "w118"
-    ],
+    "words": ["w40", "w51", "w27", "w35", "w38", "w116", "w118"],
     "fr": "Il porte des lunettes et une montre. Il porte un pull gris, un jean bleu et des baskets grises.",
     "zh": "他戴着眼镜和手表。他穿着灰色毛衣、蓝色牛仔裤和灰色运动鞋。"
    }
@@ -623,10 +560,7 @@ lexiqueData({
    "ex": "Il est grand.",
    "tr": "他个子高。",
    "hint": "与 petit 对照；阴性 grande 的 d 要读出来。",
-   "art": [
-    "people",
-    0
-   ]
+   "art": ["people", 0]
   },
   {
    "id": "w2",
@@ -637,10 +571,7 @@ lexiqueData({
    "ex": "Elle est petite.",
    "tr": "她个子矮。",
    "hint": "petite 的 t 发音；形容身高用 être。",
-   "art": [
-    "people",
-    1
-   ]
+   "art": ["people", 1]
   },
   {
    "id": "w3",
@@ -651,10 +582,7 @@ lexiqueData({
    "ex": "Elle est de taille moyenne.",
    "tr": "她中等身高。",
    "hint": "把 de taille moyenne 整块记在 être 后面。",
-   "art": [
-    "people",
-    2
-   ]
+   "art": ["people", 2]
   },
   {
    "id": "w4",
@@ -665,10 +593,7 @@ lexiqueData({
    "ex": "Il est grand et mince.",
    "tr": "他又高又苗条。",
    "hint": "mince 通常语气较正面；阴阳性同形。",
-   "art": [
-    "people",
-    3
-   ]
+   "art": ["people", 3]
   },
   {
    "id": "w5",
@@ -679,10 +604,7 @@ lexiqueData({
    "ex": "Le chat est maigre.",
    "tr": "这只猫很瘦。",
    "hint": "与 mince 对照，maigre 常暗示过瘦。",
-   "art": [
-    "people",
-    4
-   ]
+   "art": ["people", 4]
   },
   {
    "id": "w6",
@@ -693,10 +615,7 @@ lexiqueData({
    "ex": "Elle est forte.",
    "tr": "她很强壮。",
    "hint": "可描述力气大，也可委婉描述体型；看语境。",
-   "art": [
-    "people",
-    5
-   ],
+   "art": ["people", 5],
    "caption": "fort 也可表示力气大；图中展示搬重物。"
   },
   {
@@ -708,10 +627,7 @@ lexiqueData({
    "ex": "Ce chat est gros.",
    "tr": "这只猫很胖。",
    "hint": "形容人可能冒犯；grosse 的 ss 读 /s/。",
-   "art": [
-    "people",
-    6
-   ]
+   "art": ["people", 6]
   },
   {
    "id": "w8",
@@ -722,10 +638,7 @@ lexiqueData({
    "ex": "Il est musclé.",
    "tr": "他肌肉发达。",
    "hint": "muscle 加 é → musclé；阴性只加 e，读音不变。",
-   "art": [
-    "people",
-    7
-   ]
+   "art": ["people", 7]
   },
   {
    "id": "w9",
@@ -736,10 +649,7 @@ lexiqueData({
    "ex": "Il est de corpulence moyenne.",
    "tr": "他体型适中。",
    "hint": "taille 管身高，corpulence 管体型。",
-   "art": [
-    "people",
-    8
-   ]
+   "art": ["people", 8]
   },
   {
    "id": "w10",
@@ -750,10 +660,7 @@ lexiqueData({
    "ex": "Ma sœur est jeune.",
    "tr": "我姐姐很年轻。",
    "hint": "与 âgé 成对记；阴阳性同形。",
-   "art": [
-    "people",
-    9
-   ]
+   "art": ["people", 9]
   },
   {
    "id": "w11",
@@ -764,10 +671,7 @@ lexiqueData({
    "ex": "Mon voisin est âgé.",
    "tr": "我的邻居年纪大了。",
    "hint": "âgé 的 g 在 é 前读 /ʒ/。",
-   "art": [
-    "people",
-    10
-   ]
+   "art": ["people", 10]
   },
   {
    "id": "w12",
@@ -778,10 +682,7 @@ lexiqueData({
    "ex": "Il a l’air jeune.",
    "tr": "他看起来年轻。",
    "hint": "avoir l’air + 形容词；不要换成 être l’air。",
-   "art": [
-    "people",
-    9
-   ],
+   "art": ["people", 9],
    "caption": "看起来年轻：图像呈现外观，不表示实际年龄。"
   },
   {
@@ -793,15 +694,9 @@ lexiqueData({
    "ex": "Elle a l’air âgée.",
    "tr": "她看起来年纪较大。",
    "hint": "elle → âgée；avoir 变位为 a。",
-   "art": [
-    "people",
-    10
-   ],
+   "art": ["people", 10],
    "caption": "看起来年长：图像呈现外观，不表示实际年龄。",
-   "variants": [
-    "avoir l’air âgé",
-    "avoir l’air âgée"
-   ]
+   "variants": ["avoir l’air âgé", "avoir l’air âgée"]
   },
   {
    "id": "w14",
@@ -812,10 +707,7 @@ lexiqueData({
    "ex": "C’est une belle ville.",
    "tr": "这是一座美丽的城市。",
    "hint": "beau → belle；元音或哑音 h 前的阳性单数用 bel：un bel homme。",
-   "art": [
-    "people",
-    11
-   ],
+   "art": ["people", 11],
    "caption": "美感是主观的；图像仅用于联想。"
   },
   {
@@ -827,10 +719,7 @@ lexiqueData({
    "ex": "Elle porte une jolie robe.",
    "tr": "她穿着一条漂亮裙子。",
    "hint": "可形容人或物；并非只能形容女性，如 un joli garçon。",
-   "art": [
-    "people",
-    12
-   ],
+   "art": ["people", 12],
    "caption": "une jolie petite maison · 漂亮的小房子"
   },
   {
@@ -842,10 +731,7 @@ lexiqueData({
    "ex": "Elle est élégante.",
    "tr": "她很优雅。",
    "hint": "想象整洁的穿搭；阴性末尾 t 发音。",
-   "art": [
-    "people",
-    13
-   ]
+   "art": ["people", 13]
   },
   {
    "id": "w17",
@@ -856,10 +742,7 @@ lexiqueData({
    "ex": "Mon frère est sportif.",
    "tr": "我哥哥爱运动。",
    "hint": "常见阴性变化 f → ve。",
-   "art": [
-    "people",
-    14
-   ]
+   "art": ["people", 14]
   },
   {
    "id": "w18",
@@ -870,10 +753,7 @@ lexiqueData({
    "ex": "Elle a les cheveux longs.",
    "tr": "她留着长发。",
    "hint": "cheveux 是复数，所以用 longs。",
-   "art": [
-    "hair",
-    0
-   ]
+   "art": ["hair", 0]
   },
   {
    "id": "w19",
@@ -884,10 +764,7 @@ lexiqueData({
    "ex": "Il a les cheveux courts.",
    "tr": "他留着短发。",
    "hint": "longs ↔ courts；court 末尾 t 通常不发音。",
-   "art": [
-    "hair",
-    1
-   ]
+   "art": ["hair", 1]
   },
   {
    "id": "w20",
@@ -898,10 +775,7 @@ lexiqueData({
    "ex": "Elle a les cheveux mi-longs.",
    "tr": "她留着中长发。",
    "hint": "mi- 表示一半／中间，mi 不变。",
-   "art": [
-    "hair",
-    2
-   ]
+   "art": ["hair", 2]
   },
   {
    "id": "w21",
@@ -912,10 +786,7 @@ lexiqueData({
    "ex": "Il a les cheveux raides.",
    "tr": "他的头发是直的。",
    "hint": "raide 强调直、不弯曲。",
-   "art": [
-    "hair",
-    3
-   ]
+   "art": ["hair", 3]
   },
   {
    "id": "w22",
@@ -926,10 +797,7 @@ lexiqueData({
    "ex": "Elle a les cheveux lisses.",
    "tr": "她的头发很顺直。",
    "hint": "lisse 强调平滑、顺直，ss 读 /s/。",
-   "art": [
-    "hair",
-    4
-   ]
+   "art": ["hair", 4]
   },
   {
    "id": "w23",
@@ -940,10 +808,7 @@ lexiqueData({
    "ex": "Elle a les cheveux ondulés.",
    "tr": "她有一头波浪卷发。",
    "hint": "想象柔和波浪；原文 ondulé 已补复数 s。",
-   "art": [
-    "hair",
-    5
-   ]
+   "art": ["hair", 5]
   },
   {
    "id": "w24",
@@ -954,10 +819,7 @@ lexiqueData({
    "ex": "Elle a les cheveux mi-longs et bouclés.",
    "tr": "她留着中长卷发。",
    "hint": "boucle 是环；卷发像一个个环。",
-   "art": [
-    "hair",
-    6
-   ]
+   "art": ["hair", 6]
   },
   {
    "id": "w25",
@@ -968,10 +830,7 @@ lexiqueData({
    "ex": "Il a une barbe.",
    "tr": "他留着胡子。",
    "hint": "barbe 在下巴、脸颊；不必同时有小胡子。",
-   "art": [
-    "hair",
-    7
-   ]
+   "art": ["hair", 7]
   },
   {
    "id": "w26",
@@ -982,10 +841,7 @@ lexiqueData({
    "ex": "Il a une moustache.",
    "tr": "他留着小胡子。",
    "hint": "只记位置：嘴唇上方。",
-   "art": [
-    "hair",
-    8
-   ]
+   "art": ["hair", 8]
   },
   {
    "id": "w27",
@@ -996,10 +852,7 @@ lexiqueData({
    "ex": "Je porte un pull bleu.",
    "tr": "我穿着蓝毛衣。",
    "hint": "u 读 /y/，不是英语 pull 的元音。",
-   "art": [
-    "clothes",
-    0
-   ]
+   "art": ["clothes", 0]
   },
   {
    "id": "w28",
@@ -1010,10 +863,7 @@ lexiqueData({
    "ex": "Il porte un sweat gris.",
    "tr": "他穿着灰色卫衣。",
    "hint": "法语里常读 /swit/，不要按英语 sweat 读。",
-   "art": [
-    "clothes",
-    1
-   ]
+   "art": ["clothes", 1]
   },
   {
    "id": "w29",
@@ -1024,10 +874,7 @@ lexiqueData({
    "ex": "Elle porte une veste noire.",
    "tr": "她穿着黑夹克。",
    "hint": "veste 较短，manteau 通常更长。",
-   "art": [
-    "clothes",
-    2
-   ]
+   "art": ["clothes", 2]
   },
   {
    "id": "w30",
@@ -1038,10 +885,7 @@ lexiqueData({
    "ex": "Mon manteau est chaud.",
    "tr": "我的大衣很暖和。",
    "hint": "eau 一起读 /o/。",
-   "art": [
-    "clothes",
-    3
-   ]
+   "art": ["clothes", 3]
   },
   {
    "id": "w31",
@@ -1052,10 +896,7 @@ lexiqueData({
    "ex": "Il porte un costume marron.",
    "tr": "他穿着棕色西装。",
    "hint": "外貌描述中常指一套西装。",
-   "art": [
-    "clothes",
-    4
-   ]
+   "art": ["clothes", 4]
   },
   {
    "id": "w32",
@@ -1066,10 +907,7 @@ lexiqueData({
    "ex": "Elle porte une robe rouge.",
    "tr": "她穿着红色连衣裙。",
    "hint": "robe 是连身的；jupe 只有下半身。",
-   "art": [
-    "clothes",
-    5
-   ]
+   "art": ["clothes", 5]
   },
   {
    "id": "w33",
@@ -1080,10 +918,7 @@ lexiqueData({
    "ex": "Ma jupe est verte.",
    "tr": "我的半身裙是绿色的。",
    "hint": "与 robe 对照；u 读 /y/。",
-   "art": [
-    "clothes",
-    6
-   ]
+   "art": ["clothes", 6]
   },
   {
    "id": "w34",
@@ -1094,10 +929,7 @@ lexiqueData({
    "ex": "Il porte un pantalon noir.",
    "tr": "他穿着黑色长裤。",
    "hint": "一条裤子在法语中用单数 un pantalon。",
-   "art": [
-    "clothes",
-    7
-   ]
+   "art": ["clothes", 7]
   },
   {
    "id": "w35",
@@ -1108,10 +940,7 @@ lexiqueData({
    "ex": "Je porte un jean bleu.",
    "tr": "我穿着蓝色牛仔裤。",
    "hint": "这里不是人名 Jean /ʒɑ̃/。",
-   "art": [
-    "clothes",
-    8
-   ]
+   "art": ["clothes", 8]
   },
   {
    "id": "w36",
@@ -1122,10 +951,7 @@ lexiqueData({
    "ex": "Il porte un short.",
    "tr": "他穿着短裤。",
    "hint": "末尾 t 要发音。",
-   "art": [
-    "clothes",
-    9
-   ]
+   "art": ["clothes", 9]
   },
   {
    "id": "w37",
@@ -1136,10 +962,7 @@ lexiqueData({
    "ex": "Mes chaussures sont noires.",
    "tr": "我的鞋是黑色的。",
    "hint": "一双鞋用复数；une chaussure 是一只鞋。",
-   "art": [
-    "clothes",
-    10
-   ]
+   "art": ["clothes", 10]
   },
   {
    "id": "w38",
@@ -1150,10 +973,7 @@ lexiqueData({
    "ex": "Elle porte des baskets blanches.",
    "tr": "她穿着白色运动鞋。",
    "hint": "词尾 t 发音，复数 s 不发音。",
-   "art": [
-    "clothes",
-    11
-   ]
+   "art": ["clothes", 11]
   },
   {
    "id": "w39",
@@ -1164,10 +984,7 @@ lexiqueData({
    "ex": "Je porte des bottes en hiver.",
    "tr": "我冬天穿靴子。",
    "hint": "想象高到脚踝以上的鞋筒。",
-   "art": [
-    "clothes",
-    12
-   ]
+   "art": ["clothes", 12]
   },
   {
    "id": "w40",
@@ -1178,10 +995,7 @@ lexiqueData({
    "ex": "Il porte des lunettes.",
    "tr": "他戴着眼镜。",
    "hint": "眼镜用复数，戴眼镜用 porter。",
-   "art": [
-    "clothes",
-    13
-   ]
+   "art": ["clothes", 13]
   },
   {
    "id": "w41",
@@ -1192,10 +1006,7 @@ lexiqueData({
    "ex": "Elle porte des lunettes de soleil.",
    "tr": "她戴着太阳镜。",
    "hint": "de soleil = 防太阳的；soleil 末尾读 /ɛj/。",
-   "art": [
-    "clothes",
-    14
-   ]
+   "art": ["clothes", 14]
   },
   {
    "id": "w42",
@@ -1206,10 +1017,7 @@ lexiqueData({
    "ex": "Il porte un chapeau.",
    "tr": "他戴着帽子。",
    "hint": "eau 读 /o/；与 casquette 配图对照。",
-   "art": [
-    "clothes",
-    15
-   ]
+   "art": ["clothes", 15]
   },
   {
    "id": "w43",
@@ -1220,10 +1028,7 @@ lexiqueData({
    "ex": "Ma casquette est bleue.",
    "tr": "我的鸭舌帽是蓝色的。",
    "hint": "想象向前伸出的帽檐。",
-   "art": [
-    "clothes",
-    16
-   ]
+   "art": ["clothes", 16]
   },
   {
    "id": "w44",
@@ -1234,10 +1039,7 @@ lexiqueData({
    "ex": "Elle porte une écharpe en hiver.",
    "tr": "她冬天戴围巾。",
    "hint": "écharpe 常用于保暖。",
-   "art": [
-    "clothes",
-    17
-   ]
+   "art": ["clothes", 17]
   },
   {
    "id": "w45",
@@ -1248,10 +1050,7 @@ lexiqueData({
    "ex": "Elle porte un foulard rouge.",
    "tr": "她系着红丝巾。",
    "hint": "foulard 常较轻薄；末尾 d 不发音。",
-   "art": [
-    "clothes",
-    18
-   ]
+   "art": ["clothes", 18]
   },
   {
    "id": "w46",
@@ -1262,10 +1061,7 @@ lexiqueData({
    "ex": "Il porte une cravate.",
    "tr": "他打着领带。",
    "hint": "把 cravate 与 costume 一起记。",
-   "art": [
-    "clothes",
-    19
-   ]
+   "art": ["clothes", 19]
   },
   {
    "id": "w47",
@@ -1276,10 +1072,7 @@ lexiqueData({
    "ex": "Elle porte un collier.",
    "tr": "她戴着项链。",
    "hint": "围在脖子上；结尾 ier 读 /je/。",
-   "art": [
-    "clothes",
-    20
-   ]
+   "art": ["clothes", 20]
   },
   {
    "id": "w48",
@@ -1290,10 +1083,7 @@ lexiqueData({
    "ex": "J’ai un bracelet.",
    "tr": "我有一条手链。",
    "hint": "与 bras（手臂）联想；末尾 t 不发音。",
-   "art": [
-    "clothes",
-    21
-   ]
+   "art": ["clothes", 21]
   },
   {
    "id": "w49",
@@ -1304,10 +1094,7 @@ lexiqueData({
    "ex": "Elle porte une bague.",
    "tr": "她戴着戒指。",
    "hint": "gue 保留 /ɡ/ 音；戴在手指上。",
-   "art": [
-    "clothes",
-    22
-   ]
+   "art": ["clothes", 22]
   },
   {
    "id": "w50",
@@ -1318,10 +1105,7 @@ lexiqueData({
    "ex": "Elle porte des boucles d’oreilles.",
    "tr": "她戴着耳环。",
    "hint": "boucles = 环，oreilles = 耳朵。",
-   "art": [
-    "clothes",
-    23
-   ]
+   "art": ["clothes", 23]
   },
   {
    "id": "w51",
@@ -1332,10 +1116,7 @@ lexiqueData({
    "ex": "Il porte une montre.",
    "tr": "他戴着手表。",
    "hint": "手表是阴性；和 bracelet 比较位置与用途。",
-   "art": [
-    "clothes",
-    24
-   ]
+   "art": ["clothes", 24]
   },
   {
    "id": "w52",
@@ -1346,10 +1127,7 @@ lexiqueData({
    "ex": "Elle a la peau blanche.",
    "tr": "她的皮肤很白。",
    "hint": "blanc → blanche，/k/ 不单独读；描述肤色可用 la peau。",
-   "art": [
-    "hair",
-    22
-   ]
+   "art": ["hair", 22]
   },
   {
    "id": "w53",
@@ -1360,10 +1138,7 @@ lexiqueData({
    "ex": "Il a les cheveux noirs.",
    "tr": "他的头发是黑色的。",
    "hint": "阴阳性同音；原文 Il est noire 应为 Il est noir。",
-   "art": [
-    "hair",
-    24
-   ]
+   "art": ["hair", 24]
   },
   {
    "id": "w54",
@@ -1374,10 +1149,7 @@ lexiqueData({
    "ex": "Elle est bronzée.",
    "tr": "她晒黑了。",
    "hint": "联想阳光后的古铜色，不是天生肤色的唯一说法。",
-   "art": [
-    "hair",
-    23
-   ],
+   "art": ["hair", 23],
    "caption": "示意晒后的暖棕肤色；不能仅凭图判断是否晒黑。"
   },
   {
@@ -1389,10 +1161,7 @@ lexiqueData({
    "ex": "Il est pâle aujourd’hui.",
    "tr": "他今天脸色苍白。",
    "hint": "与 bronzé 对照；阴阳性同形。",
-   "art": [
-    "hair",
-    22
-   ],
+   "art": ["hair", 22],
    "caption": "pâle 指苍白；也可能描述暂时的脸色变化。"
   },
   {
@@ -1404,10 +1173,7 @@ lexiqueData({
    "ex": "Elle a la peau mate.",
    "tr": "她的肤色偏小麦色。",
    "hint": "peau 阴性 → mate；更强调天然较深肤色。",
-   "art": [
-    "hair",
-    23
-   ],
+   "art": ["hair", 23],
    "caption": "mate 与 bronzé 并不等义，配图只呈现近似色调。"
   },
   {
@@ -1419,10 +1185,7 @@ lexiqueData({
    "ex": "Il a la peau foncée.",
    "tr": "他的肤色较深。",
    "hint": "foncé = 深色；peau 后加 e。",
-   "art": [
-    "hair",
-    24
-   ],
+   "art": ["hair", 24],
    "caption": "肤色是连续变化的，插画只展示一个例子。"
   },
   {
@@ -1434,10 +1197,7 @@ lexiqueData({
    "ex": "Elle a la peau claire.",
    "tr": "她的肤色较浅。",
    "hint": "claire ↔ foncée；都与 peau 配合。",
-   "art": [
-    "hair",
-    22
-   ],
+   "art": ["hair", 22],
    "caption": "claire 是相对的浅肤色，没有唯一色值。"
   },
   {
@@ -1449,10 +1209,7 @@ lexiqueData({
    "ex": "Elle est blonde.",
    "tr": "她是金发。",
    "hint": "Il est blond；Elle est blonde。也可说 cheveux blonds。",
-   "art": [
-    "hair",
-    10
-   ]
+   "art": ["hair", 10]
   },
   {
    "id": "w60",
@@ -1463,10 +1220,7 @@ lexiqueData({
    "ex": "Il est brun.",
    "tr": "他是棕发。",
    "hint": "brun 与 brune 元音也变化；别只记加 e。",
-   "art": [
-    "hair",
-    11
-   ]
+   "art": ["hair", 11]
   },
   {
    "id": "w61",
@@ -1477,10 +1231,7 @@ lexiqueData({
    "ex": "Il a les cheveux châtains.",
    "tr": "他的头发是栗色的。",
    "hint": "châtain 作发色形容词，复数 châtains 要加 s；女性也常用 châtain。",
-   "art": [
-    "hair",
-    12
-   ]
+   "art": ["hair", 12]
   },
   {
    "id": "w62",
@@ -1491,10 +1242,7 @@ lexiqueData({
    "ex": "Elle est rousse.",
    "tr": "她是红发。",
    "hint": "roux → rousse；不要用 rouge 直接替代红发形容词。",
-   "art": [
-    "hair",
-    13
-   ]
+   "art": ["hair", 13]
   },
   {
    "id": "w63",
@@ -1505,10 +1253,7 @@ lexiqueData({
    "ex": "Elle a les cheveux noirs.",
    "tr": "她有一头黑发。",
    "hint": "cheveux 复数 → noirs。",
-   "art": [
-    "hair",
-    14
-   ]
+   "art": ["hair", 14]
   },
   {
    "id": "w64",
@@ -1519,10 +1264,7 @@ lexiqueData({
    "ex": "Il a les cheveux gris.",
    "tr": "他有灰白头发。",
    "hint": "gris 本身以 s 结尾，阳性复数不再加 s。",
-   "art": [
-    "hair",
-    15
-   ]
+   "art": ["hair", 15]
   },
   {
    "id": "w65",
@@ -1533,10 +1275,7 @@ lexiqueData({
    "ex": "Il est chauve.",
    "tr": "他是秃头。",
    "hint": "用 être chauve，想象没有头发的头顶。",
-   "art": [
-    "hair",
-    9
-   ]
+   "art": ["hair", 9]
   },
   {
    "id": "w66",
@@ -1547,10 +1286,7 @@ lexiqueData({
    "ex": "Elle a les yeux bleus.",
    "tr": "她的眼睛是蓝色的。",
    "hint": "les yeux 连读 /le zjø/；bleus 末尾 s 不发音。",
-   "art": [
-    "hair",
-    16
-   ]
+   "art": ["hair", 16]
   },
   {
    "id": "w67",
@@ -1561,10 +1297,7 @@ lexiqueData({
    "ex": "Il a les yeux verts.",
    "tr": "他的眼睛是绿色的。",
    "hint": "yeux 阳性复数 → verts。",
-   "art": [
-    "hair",
-    17
-   ]
+   "art": ["hair", 17]
   },
   {
    "id": "w68",
@@ -1575,10 +1308,7 @@ lexiqueData({
    "ex": "Elle a les yeux marron.",
    "tr": "她的眼睛是棕色的。",
    "hint": "marron 作颜色不变，不能写 marrons。",
-   "art": [
-    "hair",
-    18
-   ]
+   "art": ["hair", 18]
   },
   {
    "id": "w69",
@@ -1589,10 +1319,7 @@ lexiqueData({
    "ex": "Il a les yeux noirs.",
    "tr": "他的眼睛是黑色的。",
    "hint": "与 cheveux noirs 换一个身体部位练习。",
-   "art": [
-    "hair",
-    19
-   ]
+   "art": ["hair", 19]
   },
   {
    "id": "w70",
@@ -1603,10 +1330,7 @@ lexiqueData({
    "ex": "Elle a les yeux gris.",
    "tr": "她的眼睛是灰色的。",
    "hint": "gris 既能描述头发，也能描述眼睛。",
-   "art": [
-    "hair",
-    20
-   ]
+   "art": ["hair", 20]
   },
   {
    "id": "w71",
@@ -1617,10 +1341,7 @@ lexiqueData({
    "ex": "Il est vert de jalousie.",
    "tr": "他嫉妒得眼红。",
    "hint": "法语嫉妒用绿色 vert，别按中文直译成红色。",
-   "art": [
-    "people",
-    15
-   ],
+   "art": ["people", 15],
    "caption": "绿色是嫉妒的象征，并非真的皮肤变绿。"
   },
   {
@@ -1632,10 +1353,7 @@ lexiqueData({
    "ex": "Il est rouge de colère.",
    "tr": "他气得满脸通红。",
    "hint": "de + 原因：colère = 愤怒。",
-   "art": [
-    "people",
-    16
-   ]
+   "art": ["people", 16]
   },
   {
    "id": "w73",
@@ -1646,10 +1364,7 @@ lexiqueData({
    "ex": "Elle est rouge de honte.",
    "tr": "她羞得满脸通红。",
    "hint": "honte 是嘘音 h，不省音：de honte，不是 d’honte。",
-   "art": [
-    "people",
-    17
-   ]
+   "art": ["people", 17]
   },
   {
    "id": "w74",
@@ -1660,10 +1375,7 @@ lexiqueData({
    "ex": "Il est blanc comme un linge.",
    "tr": "他脸色苍白如纸。",
    "hint": "linge 是布织物；比喻像白布一样苍白。",
-   "art": [
-    "people",
-    18
-   ]
+   "art": ["people", 18]
   },
   {
    "id": "w75",
@@ -1674,10 +1386,7 @@ lexiqueData({
    "ex": "Il porte des chaussures marron.",
    "tr": "他穿着棕色鞋。",
    "hint": "来自栗子名词，作颜色时不随复数变化。",
-   "art": [
-    "objects",
-    0
-   ]
+   "art": ["objects", 0]
   },
   {
    "id": "w76",
@@ -1688,10 +1397,7 @@ lexiqueData({
    "ex": "J’ai deux sacs orange.",
    "tr": "我有两个橙色包。",
    "hint": "作颜色不变；不要用来概括人的族群肤色。",
-   "art": [
-    "objects",
-    1
-   ]
+   "art": ["objects", 1]
   },
   {
    "id": "w77",
@@ -1702,10 +1408,7 @@ lexiqueData({
    "ex": "Elle a les yeux noisette.",
    "tr": "她有榛子色眼睛。",
    "hint": "来自榛子，作颜色不加 s。",
-   "art": [
-    "objects",
-    2
-   ],
+   "art": ["objects", 2],
    "caption": "榛子 → 榛子色；眼睛可呈绿棕相间。"
   },
   {
@@ -1717,10 +1420,7 @@ lexiqueData({
    "ex": "Il porte des chaussures olive.",
    "tr": "他穿着橄榄绿色鞋。",
    "hint": "把橄榄果与颜色连在一起；颜色不变。",
-   "art": [
-    "objects",
-    3
-   ]
+   "art": ["objects", 3]
   },
   {
    "id": "w79",
@@ -1731,10 +1431,7 @@ lexiqueData({
    "ex": "Ces robes sont turquoise.",
    "tr": "这些连衣裙是绿松石色的。",
    "hint": "蓝与绿之间；作颜色不随性数变化。",
-   "art": [
-    "objects",
-    4
-   ]
+   "art": ["objects", 4]
   },
   {
    "id": "w80",
@@ -1745,10 +1442,7 @@ lexiqueData({
    "ex": "Il porte un pantalon kaki.",
    "tr": "他穿着卡其色裤子。",
    "hint": "服装颜色是卡其色；不是柿子橙色，颜色词不变。",
-   "art": [
-    "objects",
-    5
-   ]
+   "art": ["objects", 5]
   },
   {
    "id": "w81",
@@ -1759,10 +1453,7 @@ lexiqueData({
    "ex": "Elle a les cheveux chocolat.",
    "tr": "她有巧克力色头发。",
    "hint": "想象巧克力的深棕；末尾 t 不读，颜色不变。",
-   "art": [
-    "objects",
-    6
-   ]
+   "art": ["objects", 6]
   },
   {
    "id": "w82",
@@ -1773,10 +1464,7 @@ lexiqueData({
    "ex": "Les murs sont crème.",
    "tr": "墙是奶油色的。",
    "hint": "奶油 → 奶油色；作颜色不变。",
-   "art": [
-    "objects",
-    7
-   ]
+   "art": ["objects", 7]
   },
   {
    "id": "w83",
@@ -1787,10 +1475,7 @@ lexiqueData({
    "ex": "Les rideaux sont bordeaux.",
    "tr": "窗帘是酒红色的。",
    "hint": "联想波尔多葡萄酒；作颜色小写、不变。",
-   "art": [
-    "objects",
-    8
-   ]
+   "art": ["objects", 8]
   },
   {
    "id": "w84",
@@ -1801,10 +1486,7 @@ lexiqueData({
    "ex": "Je porte une montre.",
    "tr": "我戴着手表。",
    "hint": "je porte / il porte；衣服与配饰都能用。",
-   "art": [
-    "people",
-    20
-   ]
+   "art": ["people", 20]
   },
   {
    "id": "w85",
@@ -1815,10 +1497,7 @@ lexiqueData({
    "ex": "Elle est grande.",
    "tr": "她个子高。",
    "hint": "je suis / tu es / il est / elle est；体型、年龄用它。",
-   "art": [
-    "people",
-    0
-   ],
+   "art": ["people", 0],
    "caption": "Il est grand. · 用 être 连接人物与特征。"
   },
   {
@@ -1830,10 +1509,7 @@ lexiqueData({
    "ex": "Il a les yeux bleus.",
    "tr": "他有蓝眼睛。",
    "hint": "j’ai / tu as / il a / elle a；描述身体部位常用它。",
-   "art": [
-    "people",
-    21
-   ],
+   "art": ["people", 21],
    "caption": "Elle a un sac. · 她有一个包。"
   },
   {
@@ -1845,10 +1521,7 @@ lexiqueData({
    "ex": "Quelle est ta taille ?",
    "tr": "你身高多少？",
    "hint": "这里指身高，也可指衣服尺码。",
-   "art": [
-    "people",
-    2
-   ],
+   "art": ["people", 2],
    "caption": "观察头顶与同一高度门框的距离。"
   },
   {
@@ -1860,10 +1533,7 @@ lexiqueData({
    "ex": "Il est de corpulence moyenne.",
    "tr": "他体型适中。",
    "hint": "与 taille 区分；词尾 -ence 是阴性。",
-   "art": [
-    "people",
-    8
-   ],
+   "art": ["people", 8],
    "caption": "corpulence 关注体型，而不是身高。"
   },
   {
@@ -1875,10 +1545,7 @@ lexiqueData({
    "ex": "Ce muscle est fort.",
    "tr": "这块肌肉很有力量。",
    "hint": "muscle → musclé：名词变形容词。",
-   "art": [
-    "people",
-    22
-   ]
+   "art": ["people", 22]
   },
   {
    "id": "w90",
@@ -1889,10 +1556,7 @@ lexiqueData({
    "ex": "Quel âge as-tu ?",
    "tr": "你多大？",
    "hint": "âge 是阳性；询问年龄用 avoir。",
-   "art": [
-    "people",
-    23
-   ]
+   "art": ["people", 23]
   },
   {
    "id": "w91",
@@ -1903,10 +1567,7 @@ lexiqueData({
    "ex": "Son apparence change.",
    "tr": "他的外表变了。",
    "hint": "阴性名词；l’ 隐藏了冠词性别。",
-   "art": [
-    "objects",
-    22
-   ]
+   "art": ["objects", 22]
   },
   {
    "id": "w92",
@@ -1917,10 +1578,7 @@ lexiqueData({
    "ex": "Ses cheveux sont longs.",
    "tr": "他的头发很长。",
    "hint": "单根头发 un cheveu；复数变 cheveux。",
-   "art": [
-    "hair",
-    0
-   ]
+   "art": ["hair", 0]
   },
   {
    "id": "w93",
@@ -1931,10 +1589,7 @@ lexiqueData({
    "ex": "J’aime ta coiffure.",
    "tr": "我喜欢你的发型。",
    "hint": "oi 读 /wa/；coiffure 是整体造型。",
-   "art": [
-    "objects",
-    21
-   ]
+   "art": ["objects", 21]
   },
   {
    "id": "w94",
@@ -1945,10 +1600,7 @@ lexiqueData({
    "ex": "J’ai la peau claire.",
    "tr": "我的肤色较浅。",
    "hint": "eau 读 /o/；peau 为阴性。",
-   "art": [
-    "hair",
-    23
-   ],
+   "art": ["hair", 23],
    "caption": "la peau · 皮肤；不限定某一种肤色。"
   },
   {
@@ -1960,10 +1612,7 @@ lexiqueData({
    "ex": "Elle a les yeux verts.",
    "tr": "她有绿色眼睛。",
    "hint": "单数 un œil /œj/，复数 les yeux，很不规则。",
-   "art": [
-    "hair",
-    16
-   ]
+   "art": ["hair", 16]
   },
   {
    "id": "w96",
@@ -1974,10 +1623,7 @@ lexiqueData({
    "ex": "Mes vêtements sont propres.",
    "tr": "我的衣服很干净。",
    "hint": "把 pull、robe、pantalon 放进这个大类。",
-   "art": [
-    "objects",
-    18
-   ]
+   "art": ["objects", 18]
   },
   {
    "id": "w97",
@@ -1988,10 +1634,7 @@ lexiqueData({
    "ex": "J’aime les accessoires.",
    "tr": "我喜欢配饰。",
    "hint": "les 与元音开头的 accessoires 连读 /z/。",
-   "art": [
-    "objects",
-    19
-   ]
+   "art": ["objects", 19]
   },
   {
    "id": "w98",
@@ -2002,10 +1645,7 @@ lexiqueData({
    "ex": "Elle porte des bijoux.",
    "tr": "她戴着首饰。",
    "hint": "un bijou → des bijoux，复数以 x 结尾。",
-   "art": [
-    "objects",
-    20
-   ]
+   "art": ["objects", 20]
   },
   {
    "id": "w99",
@@ -2016,10 +1656,7 @@ lexiqueData({
    "ex": "C’est un beau paysage.",
    "tr": "这是一处美丽的风景。",
    "hint": "与 beau 一起背：un beau paysage。",
-   "art": [
-    "objects",
-    10
-   ]
+   "art": ["objects", 10]
   },
   {
    "id": "w100",
@@ -2030,10 +1667,7 @@ lexiqueData({
    "ex": "C’est une jolie petite maison.",
    "tr": "这是一栋漂亮的小房子。",
    "hint": "jolie、petite 在这里放在名词前。",
-   "art": [
-    "objects",
-    11
-   ]
+   "art": ["objects", 11]
   },
   {
    "id": "w101",
@@ -2044,10 +1678,7 @@ lexiqueData({
    "ex": "Paris est une belle ville.",
    "tr": "巴黎是一座美丽的城市。",
    "hint": "ville 的 ll 读 /l/。",
-   "art": [
-    "objects",
-    12
-   ]
+   "art": ["objects", 12]
   },
   {
    "id": "w102",
@@ -2058,10 +1689,7 @@ lexiqueData({
    "ex": "C’est un joli sac.",
    "tr": "这是一个漂亮的包。",
    "hint": "sac 阳性，配 joli；末尾 c 发音。",
-   "art": [
-    "objects",
-    13
-   ]
+   "art": ["objects", 13]
   },
   {
    "id": "w103",
@@ -2072,10 +1700,7 @@ lexiqueData({
    "ex": "C’est un joli bouquet.",
    "tr": "这是一束漂亮的花。",
    "hint": "一束花也可说 un bouquet de fleurs。",
-   "art": [
-    "objects",
-    14
-   ]
+   "art": ["objects", 14]
   },
   {
    "id": "w104",
@@ -2086,10 +1711,7 @@ lexiqueData({
    "ex": "Il est très jaloux.",
    "tr": "他很嫉妒。",
    "hint": "jalousie 是名词；jaloux 是形容词。",
-   "art": [
-    "people",
-    15
-   ]
+   "art": ["people", 15]
   },
   {
    "id": "w105",
@@ -2100,10 +1722,7 @@ lexiqueData({
    "ex": "La jalousie est un problème.",
    "tr": "嫉妒是个问题。",
    "hint": "与 vert de jalousie 绑定记忆。",
-   "art": [
-    "people",
-    15
-   ]
+   "art": ["people", 15]
   },
   {
    "id": "w106",
@@ -2114,10 +1733,7 @@ lexiqueData({
    "ex": "Elle est en colère.",
    "tr": "她生气了。",
    "hint": "生气用 être en colère，不说 avoir colère。",
-   "art": [
-    "people",
-    16
-   ]
+   "art": ["people", 16]
   },
   {
    "id": "w107",
@@ -2128,10 +1744,7 @@ lexiqueData({
    "ex": "Il a honte.",
    "tr": "他感到羞愧。",
    "hint": "honte 配 avoir；h 为嘘音 h。",
-   "art": [
-    "people",
-    17
-   ]
+   "art": ["people", 17]
   },
   {
    "id": "w108",
@@ -2142,10 +1755,7 @@ lexiqueData({
    "ex": "Le linge est blanc.",
    "tr": "这些布织品是白色的。",
    "hint": "可指待洗衣物、床单等；在比喻里联想白布。",
-   "art": [
-    "objects",
-    15
-   ]
+   "art": ["objects", 15]
   },
   {
    "id": "w109",
@@ -2156,10 +1766,7 @@ lexiqueData({
    "ex": "J’ai peur.",
    "tr": "我害怕。",
    "hint": "常用 avoir peur，与 avoir honte 一起记。",
-   "art": [
-    "people",
-    18
-   ]
+   "art": ["people", 18]
   },
   {
    "id": "w110",
@@ -2170,10 +1777,7 @@ lexiqueData({
    "ex": "Il a un malaise.",
    "tr": "他感到一阵不适。",
    "hint": "mal 提示不舒服；malaise 为阳性。",
-   "art": [
-    "people",
-    19
-   ]
+   "art": ["people", 19]
   },
   {
    "id": "w111",
@@ -2184,10 +1788,7 @@ lexiqueData({
    "ex": "Le mur est blanc.",
    "tr": "墙是白色的。",
    "hint": "复数 des murs；可和 crème 搭配。",
-   "art": [
-    "objects",
-    16
-   ]
+   "art": ["objects", 16]
   },
   {
    "id": "w112",
@@ -2198,10 +1799,7 @@ lexiqueData({
    "ex": "Le rideau est rouge.",
    "tr": "窗帘是红色的。",
    "hint": "eau → eaux：des rideaux。",
-   "art": [
-    "objects",
-    17
-   ]
+   "art": ["objects", 17]
   },
   {
    "id": "w113",
@@ -2212,10 +1810,7 @@ lexiqueData({
    "ex": "Quelle couleur aimes-tu ?",
    "tr": "你喜欢什么颜色？",
    "hint": "couleur 是阴性，不要被 -eur 误导。",
-   "art": [
-    "objects",
-    9
-   ]
+   "art": ["objects", 9]
   },
   {
    "id": "w114",
@@ -2286,10 +1881,7 @@ lexiqueData({
    "ex": "Sa colère passe.",
    "tr": "他的怒气消了。",
    "hint": "名词；搭配 en colère / rouge de colère。",
-   "art": [
-    "people",
-    16
-   ]
+   "art": ["people", 16]
   },
   {
    "id": "w120",
@@ -2300,10 +1892,7 @@ lexiqueData({
    "ex": "Il est rouge de honte.",
    "tr": "他羞得脸通红。",
    "hint": "保留 la，不说 l’honte。",
-   "art": [
-    "people",
-    17
-   ]
+   "art": ["people", 17]
   },
   {
    "id": "w121",
@@ -2314,10 +1903,7 @@ lexiqueData({
    "ex": "Il est pâle à cause de la peur.",
    "tr": "他因为害怕而脸色苍白。",
    "hint": "后面接原因名词；常用于不好的结果。",
-   "art": [
-    "people",
-    18
-   ],
+   "art": ["people", 18],
    "caption": "la peur → le visage pâle · 害怕导致脸色苍白。"
   },
   {
@@ -2329,10 +1915,7 @@ lexiqueData({
    "ex": "Elle est très jeune.",
    "tr": "她非常年轻。",
    "hint": "放在形容词或副词前，加强程度。",
-   "art": [
-    "people",
-    16
-   ],
+   "art": ["people", 16],
    "caption": "en colère → très en colère · 生气 → 非常生气。"
   },
   {
@@ -2344,10 +1927,7 @@ lexiqueData({
    "ex": "Il porte souvent un pull.",
    "tr": "他经常穿毛衣。",
    "hint": "频率词，常放在变位动词之后。",
-   "art": [
-    "objects",
-    23
-   ],
+   "art": ["objects", 23],
    "caption": "重复出现的勾，提示“经常”。"
   }
  ]

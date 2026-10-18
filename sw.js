@@ -1,8 +1,8 @@
 // 离线缓存：首次打开后，断网也能用。
-// 页面和课程文件（lessons/*.js）优先联网取最新版（断网时用缓存），所以新增课程不需要改这里。
+// 页面、样式、脚本和课程文件（*.html / *.css / *.js）优先联网取最新版（断网时用缓存），所以改代码或新增课程都不需要改这里。
 // 图片、录音等静态资源优先用缓存；替换了同名图片时，把 CACHE 版本号加一。
-const CACHE = 'lexique-v5';
-const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'lessons/index.js',
+const CACHE = 'lexique-v6';
+const SHELL = ['./', 'index.html', 'app.css', 'app.js', 'manifest.webmanifest', 'lessons/index.js',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
@@ -34,7 +34,7 @@ self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
   if (e.request.method !== 'GET' || url.origin !== location.origin) return;
   if (e.request.mode === 'navigate') return e.respondWith(networkFirst(e.request, 'index.html'));
-  const fresh = url.pathname.endsWith('.webmanifest') || /\/lessons\/[^/]+\.js$/.test(url.pathname);
+  const fresh = /\.(css|js|webmanifest)$/.test(url.pathname);
   if (fresh) return e.respondWith(networkFirst(e.request, url.origin + url.pathname)); // 去掉 ?t= 防缓存参数，只存一份
   e.respondWith(cacheFirst(e.request));
 });

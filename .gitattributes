@@ -1,0 +1,6 @@
+# 统一用 LF 换行：Windows（Claude Code）和 Mac（Codex）两边改同一个文件时，不会因为换行符不同而整份文件都显示成改动
+* text=auto eol=lf
+*.webp binary
+*.png binary
+*.mp3 binary
+*.zip binary

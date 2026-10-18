@@ -1,3 +1,11 @@
 # 课本原文只留在本机，不公开
 materials/*
 !materials/README.md
+
+# Python 运行时生成的缓存，每台电脑都不同，不提交
+__pycache__/
+*.pyc
+
+# 系统生成的文件
+.DS_Store
+Thumbs.db
